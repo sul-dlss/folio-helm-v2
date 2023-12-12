@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   common:
   - apiVersion: v2
+    created: "2023-12-12T22:07:19.319473492Z"
+    description: A Helm chart for Kubernetes
+    digest: 81b17bb3ed167681060f59adf3ef5cb633d7daa24b1733d04b22c4ed148fe0b5
+    name: common
+    type: library
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/common-0.1.21/common-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
     created: "2023-07-05T13:40:12.390591-07:00"
     description: A Helm chart for Kubernetes
     digest: 3f9104f8b19f616e77d9bf468012ef1884f028ff1fd9fa44646f77e4ed47c62e
@@ -32,6 +41,17 @@ entries:
     urls:
     - edge-connexion-0.1.8.tgz
     version: 0.1.8
+  edge-courses:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-12-12T22:07:19.489188613Z"
+    description: A Helm chart for Kubernetes
+    digest: 5040a928bc5fd27ac1577050a0ecf76547ca1b9da6432441b0db5c22ce1a29ed
+    name: edge-courses
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/edge-courses-0.1.0/edge-courses-0.1.0.tgz
+    version: 0.1.0
   edge-dematic:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -43,6 +63,17 @@ entries:
     urls:
     - edge-dematic-0.1.37.tgz
     version: 0.1.37
+  edge-fqm:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-12-12T22:07:19.692506606Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a965d8819f57aa973011ffde0d08c57dc7762f41d2b8af94cee513f034151a8
+    name: edge-fqm
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/edge-fqm-0.1.0/edge-fqm-0.1.0.tgz
+    version: 0.1.0
   edge-inn-reach:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -164,6 +195,16 @@ entries:
   mod-agreements:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2023-12-12T22:07:19.917948222Z"
+    description: A Helm chart for Kubernetes
+    digest: 62de2f0ef3259ab7e43c226b3d84911775c2cb29b90f7c3fce9acbcb19a1288e
+    name: mod-agreements
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-agreements-0.1.35/mod-agreements-0.1.35.tgz
+    version: 0.1.35
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2023-07-05T13:40:15.389443-07:00"
     description: A Helm chart for Kubernetes
     digest: 00d06076e55d3c892233ec71bda46d8ac830c6f20cbc9702f37e9368d634a047
@@ -186,6 +227,16 @@ entries:
   mod-authtoken:
   - apiVersion: v1
     appVersion: 2.5.0
+    created: "2023-12-12T22:07:20.101183298Z"
+    description: A Helm chart for Folio mod-authtoken
+    digest: 6f8e6b34799074f81e3609f9c0fbf00bca1b42cc0e8ff5996282b59b2c64e9a4
+    name: mod-authtoken
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-authtoken-0.1.38/mod-authtoken-0.1.38.tgz
+    version: 0.1.38
+  - apiVersion: v1
+    appVersion: 2.5.0
     created: "2023-07-05T13:40:15.805952-07:00"
     description: A Helm chart for Folio mod-authtoken
     digest: 955a52e23813b6dd42f79d55196120ed3f76e7d5f0b1f2dd14a8c6807bf28b28
@@ -194,6 +245,17 @@ entries:
     urls:
     - mod-authtoken-0.1.37.tgz
     version: 0.1.37
+  mod-batch-print:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-12-12T22:07:20.305697308Z"
+    description: A Helm chart for Kubernetes
+    digest: d9fc504dbfe46a6bb026f154536e33dc355dad1f4a8dda07dd7fed130f7f1118
+    name: mod-batch-print
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-batch-print-0.1.0/mod-batch-print-0.1.0.tgz
+    version: 0.1.0
   mod-bulk-operations:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -285,6 +347,16 @@ entries:
   mod-consortia:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2023-12-12T22:07:20.514588356Z"
+    description: A Helm chart for Kubernetes
+    digest: 68c396c22b7fe53e068062e984dd1d6bc09ff90215edabb1b6000f61cdb3addf
+    name: mod-consortia
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-consortia-0.1.6/mod-consortia-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2023-07-05T13:40:17.759692-07:00"
     description: A Helm chart for Kubernetes
     digest: f5547485fc8d11f3b645d2ab320855e95fc46c187e76a6ec67988cdad4cfd91a
@@ -327,6 +399,16 @@ entries:
     - mod-data-export-0.1.45.tgz
     version: 0.1.45
   mod-data-export-spring:
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2023-12-12T22:07:20.701650609Z"
+    description: A Helm chart for Kubernetes
+    digest: f96490eb27ef51998dd29e1ff08602cb89b90d56de936d5ba1fccb71340fe55d
+    name: mod-data-export-spring
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-data-export-spring-0.1.8/mod-data-export-spring-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v1
     appVersion: 1.0.1
     created: "2023-07-05T13:40:18.570574-07:00"
@@ -395,6 +477,16 @@ entries:
   mod-entities-links:
   - apiVersion: v1
     appVersion: 1.0.0
+    created: "2023-12-12T22:07:20.879353277Z"
+    description: A Helm chart for Kubernetes
+    digest: 73681cadd460e90e7b6855d300532ef353f123ece22c4e6b4ce495c8c5f74367
+    name: mod-entities-links
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-entities-links-0.1.6/mod-entities-links-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 1.0.0
     created: "2023-07-05T13:40:19.746303-07:00"
     description: A Helm chart for Kubernetes
     digest: 42a27b3f99243ed552d648019726e94843e98d782bc222db0e3c7797d26a06fe
@@ -415,6 +507,16 @@ entries:
     - mod-erm-usage-0.1.36.tgz
     version: 0.1.36
   mod-erm-usage-harvester:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-12-12T22:07:21.059064522Z"
+    description: A Helm chart for Kubernetes
+    digest: 718e639c9728c9f65954ef255ca3ad135b212a8cd1dc093422dd87f31ab715be
+    name: mod-erm-usage-harvester
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-erm-usage-harvester-0.1.37/mod-erm-usage-harvester-0.1.37.tgz
+    version: 0.1.37
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2023-07-05T13:40:20.162441-07:00"
@@ -480,6 +582,17 @@ entries:
     urls:
     - mod-finance-storage-0.1.36.tgz
     version: 0.1.36
+  mod-fqm-manager:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-12-12T22:07:21.23991932Z"
+    description: A Helm chart for Kubernetes
+    digest: a777d79f2f859b29e34b3416d695fdab63d30c89fcb8ff02c804ba8c96a0f552
+    name: mod-fqm-manager
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-fqm-manager-0.1.1/mod-fqm-manager-0.1.1.tgz
+    version: 0.1.1
   mod-gobi:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -503,6 +616,16 @@ entries:
     - mod-graphql-0.1.32.tgz
     version: 0.1.32
   mod-inn-reach:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2023-12-12T22:07:21.41674052Z"
+    description: A Helm chart for Kubernetes
+    digest: 438ed8ab71606bd20d2231ec090b192c4dafecd5895fcd17d318aa2654af4741
+    name: mod-inn-reach
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-inn-reach-0.1.13/mod-inn-reach-0.1.13.tgz
+    version: 0.1.13
   - apiVersion: v1
     appVersion: 1.1.0
     created: "2023-07-05T13:40:21.753089-07:00"
@@ -601,6 +724,17 @@ entries:
     urls:
     - mod-licenses-0.1.34.tgz
     version: 0.1.34
+  mod-lists:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-12-12T22:07:21.598277813Z"
+    description: A Helm chart for Kubernetes
+    digest: 85ac12be39ac784a79fae8906da906e006d07586923b1a95af822ff5ccd668fe
+    name: mod-lists
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-lists-0.1.5/mod-lists-0.1.5.tgz
+    version: 0.1.5
   mod-login:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -623,6 +757,17 @@ entries:
     urls:
     - mod-login-saml-0.1.36.tgz
     version: 0.1.36
+  mod-marc-migrations:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-12-12T22:07:21.791535253Z"
+    description: A Helm chart for Kubernetes
+    digest: d90607c4bda24e3e69af58a611dc183d35cf19676fd654d0cce0ddc1f913754f
+    name: mod-marc-migrations
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-marc-migrations-0.1.1/mod-marc-migrations-0.1.1.tgz
+    version: 0.1.1
   mod-marccat:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -683,6 +828,16 @@ entries:
     - mod-oa-0.1.4.tgz
     version: 0.1.4
   mod-oai-pmh:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-12-12T22:07:22.024120178Z"
+    description: A Helm chart for Kubernetes
+    digest: 2cfc2c52e02ce0f9877ed621465bee5dbb61f476745519e7a530508985faa2f0
+    name: mod-oai-pmh
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-oai-pmh-0.1.39/mod-oai-pmh-0.1.39.tgz
+    version: 0.1.39
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2023-07-05T13:40:24.786959-07:00"
@@ -784,6 +939,16 @@ entries:
   mod-pubsub:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2023-12-12T22:07:22.246224592Z"
+    description: A Helm chart for Kubernetes
+    digest: c0a45e0183fe06e9147160e9a22857d71ec95882f614fff37d176c14f8cf70b3
+    name: mod-pubsub
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-pubsub-0.1.37/mod-pubsub-0.1.37.tgz
+    version: 0.1.37
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2023-07-05T13:40:26.50893-07:00"
     description: A Helm chart for Kubernetes
     digest: 3b188a111457da196bf4a89fc2ccd6ff9f9f8fea74f4a468538c2e6613370423
@@ -806,6 +971,16 @@ entries:
   mod-remote-storage:
   - apiVersion: v1
     appVersion: 1.16.0
+    created: "2023-12-12T22:07:22.440981625Z"
+    description: A Helm chart for Kubernetes
+    digest: ca28811c7f2f19633a6faff69e16289df955e0d0fb5952f6d14bcf33cde28d89
+    name: mod-remote-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-remote-storage-0.1.38/mod-remote-storage-0.1.38.tgz
+    version: 0.1.38
+  - apiVersion: v1
+    appVersion: 1.16.0
     created: "2023-07-05T13:40:26.911054-07:00"
     description: A Helm chart for Kubernetes
     digest: e3308e133521d6a47ce2745e82af8c6ee2d8d6c73cbff30421d6ed35e96eb63e
@@ -826,6 +1001,16 @@ entries:
     - mod-rtac-0.1.36.tgz
     version: 0.1.36
   mod-search:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-12-12T22:07:22.660729446Z"
+    description: A Helm chart for Kubernetes
+    digest: 661410d31c504c17acdfafd3c2c7b1623fd85c6d0a109a8c5bc7d5ea079bda9b
+    name: mod-search
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-search-0.1.41/mod-search-0.1.41.tgz
+    version: 0.1.41
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2023-07-05T13:40:27.281949-07:00"
@@ -859,6 +1044,16 @@ entries:
     - mod-serials-management-0.1.3.tgz
     version: 0.1.3
   mod-service-interaction:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2023-12-12T22:07:22.826281985Z"
+    description: A Helm chart for Kubernetes
+    digest: f17640d00d185f6bbce527fff77a5b842e2478003f67725b596c9c9208bf12eb
+    name: mod-service-interaction
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-service-interaction-0.1.10/mod-service-interaction-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v1
     appVersion: 1.16.0
     created: "2023-07-05T13:40:27.848155-07:00"
@@ -1001,4 +1196,4 @@ entries:
     urls:
     - platform-core-0.1.14.tgz
     version: 0.1.14
-generated: "2023-07-05T13:40:30.267544-07:00"
+generated: "2023-12-12T22:07:22.826337558Z"
