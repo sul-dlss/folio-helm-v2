@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   common:
   - apiVersion: v2
+    created: "2024-01-12T21:14:04.285017182Z"
+    description: A Helm chart for Kubernetes
+    digest: f09f1034934c7a5ca76b1d6e5e30f6cd7a93497fceb5dc36413c7afef87c09a1
+    name: common
+    type: library
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/common-0.1.24/common-0.1.24.tgz
+    version: 0.1.24
+  - apiVersion: v2
     created: "2023-12-12T22:07:19.319473492Z"
     description: A Helm chart for Kubernetes
     digest: 81b17bb3ed167681060f59adf3ef5cb633d7daa24b1733d04b22c4ed148fe0b5
@@ -64,6 +73,16 @@ entries:
     - edge-dematic-0.1.37.tgz
     version: 0.1.37
   edge-fqm:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2024-01-12T21:14:04.46215704Z"
+    description: A Helm chart for Kubernetes
+    digest: 231a4e240ead63cc24b29517493d4c80365b792d7b5ecf3470f5e3b56733f70a
+    name: edge-fqm
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/edge-fqm-0.1.1/edge-fqm-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
     created: "2023-12-12T22:07:19.692506606Z"
@@ -279,6 +298,16 @@ entries:
     - mod-calendar-0.1.36.tgz
     version: 0.1.36
   mod-circulation:
+  - apiVersion: v1
+    appVersion: 19.0.0
+    created: "2024-01-12T21:14:04.632791848Z"
+    description: A Helm chart Folio mod-circulation for Kubernetes
+    digest: 43e25e9ebbe7530cfa1e60d52a92321cfa195aa2bf7991cfc4d9dc224b7032ba
+    name: mod-circulation
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-circulation-0.1.38/mod-circulation-0.1.38.tgz
+    version: 0.1.38
   - apiVersion: v1
     appVersion: 19.0.0
     created: "2023-07-05T13:40:16.423226-07:00"
@@ -989,6 +1018,21 @@ entries:
     urls:
     - mod-remote-storage-0.1.35.tgz
     version: 0.1.35
+  mod-requests-mediated:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-12T21:14:04.800354812Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.0
+    description: A Helm chart for Kubernetes mod-requests-mediated deployment
+    digest: 09d982ad8fdbe8ef31259e15e5321b8367ae034ddb6b5373c5df7959b46dd00d
+    name: mod-requests-mediated
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-requests-mediated-1.0.0/mod-requests-mediated-1.0.0.tgz
+    version: 1.0.0
   mod-rtac:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -1119,6 +1163,21 @@ entries:
     urls:
     - mod-template-engine-0.1.36.tgz
     version: 0.1.36
+  mod-tlr:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-12T21:14:05.025168322Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.0
+    description: A Helm chart for Kubernetes mod-tlr deployment
+    digest: bc499469c28c4528417fba6fe4bea1b437f2fc46a23d821459dbd0a6b6770b38
+    name: mod-tlr
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-tlr-1.0.0/mod-tlr-1.0.0.tgz
+    version: 1.0.0
   mod-user-import:
   - apiVersion: v1
     appVersion: 1.16.0
@@ -1196,4 +1255,4 @@ entries:
     urls:
     - platform-core-0.1.14.tgz
     version: 0.1.14
-generated: "2023-12-12T22:07:22.826337558Z"
+generated: "2024-01-12T21:14:05.025259603Z"
