@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "mod-z3950.fullname" . }}
+  labels:
+    {{- include "mod-z3950.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.zserver.type }}
+  ports:
+    - port: {{ .Values.zserver.port }}
+      targetPort: {{ .Values.zserver.containerPort }}
+      protocol: TCP
+      name: z3950
+    - port: {{ .Values.sru.port }}
+      targetPort: {{ .Values.zserver.containerPort }}
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "mod-z3950.selectorLabels" . | nindent 4 }}
