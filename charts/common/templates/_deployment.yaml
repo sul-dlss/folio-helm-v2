@@ -261,6 +261,11 @@ spec:
                 secretKeyRef:
                   key: AWS_ACCESS_KEY_ID
                   name: {{ .Values.localFsBucketParameters }}
+            - name: LOCAL_FS_COMPOSE_WITH_AWS_SDK
+              valueFrom:
+                secretKeyRef:
+                  key: LOCAL_FS_COMPOSE_WITH_AWS_SDK
+                  name: {{ .Values.localFsBucketParameters }}
             - name: LOCAL_FS_SECRET_ACCESS_KEY
               valueFrom:
                 secretKeyRef:
