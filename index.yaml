@@ -1,0 +1,1868 @@
+apiVersion: v1
+entries:
+  common:
+  - apiVersion: v2
+    created: "2025-12-08T18:27:13.743117847Z"
+    description: A Helm chart for Kubernetes
+    digest: e93f21a710eb1c6aa2a2c0295f13754ebf4792ef6f63a8bd8a0f3a21a3d97658
+    name: common
+    type: library
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/common-0.1.35/common-0.1.35.tgz
+    version: 0.1.35
+  edge-caiasoft:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2025-12-08T18:27:13.955569684Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-caiasoft deployment
+    digest: 05893d6889eccdf240b1269159839472706f7e674bdabbeca5ae83d0d4760038
+    name: edge-caiasoft
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-caiasoft-2.1.48/edge-caiasoft-2.1.48.tgz
+    version: 2.1.48
+  edge-connexion:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2025-12-08T18:27:14.175715825Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-connexion deployment
+    digest: 4ba6b838bbdbc270a567611f6e2e7b2500bd2d42c9392221d30f140312177724
+    name: edge-connexion
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-connexion-1.1.48/edge-connexion-1.1.48.tgz
+    version: 1.1.48
+  edge-courses:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:14.409794332Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-courses deployment
+    digest: bb42a4e99a2576a768e78b3a156157f7a412ba89e7900e947e02645a0b94cc9f
+    name: edge-courses
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-courses-1.3.49/edge-courses-1.3.49.tgz
+    version: 1.3.49
+  edge-dcb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:14.622112271Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes
+    digest: f5cd0c673b02312aa1c00441430ca9468c38508d1d142e65826ccebc45f5103d
+    name: edge-dcb
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-dcb-1.0.50/edge-dcb-1.0.50.tgz
+    version: 1.0.50
+  edge-dematic:
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2025-12-08T18:27:14.836248275Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-dematic deployment
+    digest: 32aa38b87955f076640d2d35d59165c4c080173f733f1cb3bea5d503947c41ce
+    name: edge-dematic
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-dematic-2.1.49/edge-dematic-2.1.49.tgz
+    version: 2.1.49
+  edge-erm:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:15.115656372Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-erm deployment
+    digest: 04564a371af117a0f32c352d24e923ae155c323998bae560ed78dd78ed5f5d7c
+    name: edge-erm
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-erm-1.3.24/edge-erm-1.3.24.tgz
+    version: 1.3.24
+  edge-fqm:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-12-08T18:27:15.509998016Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-fqm deployment
+    digest: b86374d316f8cd76ee949516a85b7ae458bf7eeb2321cbc8745c35a3ee3c8a2d
+    name: edge-fqm
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-fqm-1.0.50/edge-fqm-1.0.50.tgz
+    version: 1.0.50
+  edge-inn-reach:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2025-12-08T18:27:15.702359633Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-inn-reach deployment
+    digest: cf88da39eb463338ac075dba94b31c86b460691a020ad05b95691c0d2d7e9177
+    name: edge-inn-reach
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-inn-reach-3.1.49/edge-inn-reach-3.1.49.tgz
+    version: 3.1.49
+  edge-inventory:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-12-08T18:27:15.902871467Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-inventory deployment
+    digest: 4a4087d98027dceb448d0724525313fcb3c7552f4ae8db5a3d1dd04fae6060c0
+    name: edge-inventory
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-inventory-0.0.27/edge-inventory-0.0.27.tgz
+    version: 0.0.27
+  edge-ncip:
+  - apiVersion: v2
+    appVersion: 1.9.2
+    created: "2025-12-08T18:27:16.141225852Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-ncip deployment
+    digest: 12d4dde7340ffde4c782b0063d5dbd999ab12f47ace99e77c95c9fbdbbca5cc9
+    name: edge-ncip
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-ncip-1.9.49/edge-ncip-1.9.49.tgz
+    version: 1.9.49
+  edge-oai-pmh:
+  - apiVersion: v2
+    appVersion: 2.7.2
+    created: "2025-12-08T18:27:16.408317945Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-oai-pmh deployment
+    digest: cfdc772a10ab9757bf0e930b28d45eb090f44435f8051675edfef902f68abfcc
+    name: edge-oai-pmh
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-oai-pmh-2.7.49/edge-oai-pmh-2.7.49.tgz
+    version: 2.7.49
+  edge-orders:
+  - apiVersion: v2
+    appVersion: 2.9.1
+    created: "2025-12-08T18:27:16.687378593Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-orders deployment
+    digest: 906a991f7dc78b3eb318fcb95d2d84e7418dbf856b1715b66be45983f51b7905
+    name: edge-orders
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-orders-2.9.50/edge-orders-2.9.50.tgz
+    version: 2.9.50
+  edge-patron:
+  - apiVersion: v2
+    appVersion: 5.0.1
+    created: "2025-12-08T18:27:16.907232077Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-patron deployment
+    digest: 0543ee166b2e5cad73d01e6919bb501397ec66abfcc33b8f3e27883810ea8702
+    name: edge-patron
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-patron-5.0.48/edge-patron-5.0.48.tgz
+    version: 5.0.48
+  edge-rtac:
+  - apiVersion: v2
+    appVersion: 2.6.2
+    created: "2025-12-08T18:27:17.141033693Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-rtac deployment
+    digest: d876550575a8938bf0f6f392e26032a562ae6d2a2dba5d7eeb50781e36d27132
+    name: edge-rtac
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-rtac-2.6.49/edge-rtac-2.6.49.tgz
+    version: 2.6.49
+  edge-sftp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-08T18:27:17.388660908Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 0c1eba4693d86cb01f944b12bc04d4e8f89e6e0e4fef6ae08bdad70bbea91af5
+    name: edge-sftp
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-sftp-0.2.39/edge-sftp-0.2.39.tgz
+    version: 0.2.39
+  edge-sip2:
+  - apiVersion: v2
+    appVersion: 3.1.1
+    created: "2025-12-08T18:27:17.669140848Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-sip2 deployment
+    digest: 61467f9fe0ceb78eef3270e7f7c5007bd8a7990b38a994f4a4df4ed2898d5ddb
+    name: edge-sip2
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-sip2-3.1.49/edge-sip2-3.1.49.tgz
+    version: 3.1.49
+  edge-users:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-12-08T18:27:17.886906542Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-users deployment
+    digest: ae35f7c07c86da737fc2f81f30bb409669310eb7ee8db014404ea7f4b4bcbce3
+    name: edge-users
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/edge-users-0.0.26/edge-users-0.0.26.tgz
+    version: 0.0.26
+  folio-common:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.2.23
+    created: "2025-12-08T18:27:18.099511486Z"
+    description: A common Helm chart for FOLIO Kubernetes charts
+    digest: c0556ab403e2ec6b8454f25f76fe3e64d849f245e5655e3b4304d9009307d999
+    home: https://folio.org/
+    icon: https://folio.org/favicon.ico
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    maintainers:
+    - name: Kitfox
+      url: https://wiki.folio.org/display/FOLIJET/Kitfox+Team+DevOps+-+Dev+Support
+    name: folio-common
+    sources:
+    - https://github.com/folio-org/folio-helm-v2
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/folio-common-0.2.23/folio-common-0.2.23.tgz
+    version: 0.2.23
+  ldp:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-12-08T18:27:18.303310919Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for deploying LDP https://github.com/library-data-platform/ldp/tree/main
+    digest: 7fd72fd7ce59aab3644f704106e97a5dda89c5d2697d7309fa47e0246b6e4532
+    name: ldp
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/ldp-2.0.12/ldp-2.0.12.tgz
+    version: 2.0.12
+  mgr-applications:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:18.548450251Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes
+    digest: ff46340556ab6911b3533dd9c6db31432cbadb4e511f13df2c51a8e0ecf9b8ff
+    name: mgr-applications
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mgr-applications-0.0.16/mgr-applications-0.0.16.tgz
+    version: 0.0.16
+  mgr-tenant-entitlements:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:18.769823652Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes
+    digest: c73c99563517509de2525781da7f56be4622c86a823dc65dec822de641a816d9
+    name: mgr-tenant-entitlements
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mgr-tenant-entitlements-0.0.16/mgr-tenant-entitlements-0.0.16.tgz
+    version: 0.0.16
+  mgr-tenants:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:18.978557075Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 85ec1d0676fc100ad9d0eb9e91f090830fbb4010bb74e94792aa078aeb5bfe6e
+    name: mgr-tenants
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mgr-tenants-0.0.16/mgr-tenants-0.0.16.tgz
+    version: 0.0.16
+  mod-aes:
+  - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2025-12-08T18:27:19.196217444Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-aes deployment
+    digest: 9ec1b7543d60668b9d56c0a4947fb828f7270ce6a04a8737e42c15caa9858413
+    name: mod-aes
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-aes-0.1.41/mod-aes-0.1.41.tgz
+    version: 0.1.41
+  mod-agreements:
+  - apiVersion: v2
+    appVersion: 6.0.2
+    created: "2025-12-08T18:27:19.390469404Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-agreements deployment
+    digest: c2ed0bb6f76fe53c545032502032c03cbe74c0c5059379f4c7739920c0ced411
+    name: mod-agreements
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-agreements-6.0.54/mod-agreements-6.0.54.tgz
+    version: 6.0.54
+  mod-audit:
+  - apiVersion: v2
+    appVersion: 2.8.0
+    created: "2025-12-08T18:27:19.628632422Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-audit deployment
+    digest: 3a361a28544f3fdcb95ace2bea392d05fc31fc33770d0e7d3ecf8a9b62e7c9cb
+    name: mod-audit
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-audit-2.8.49/mod-audit-2.8.49.tgz
+    version: 2.8.49
+  mod-authtoken:
+  - apiVersion: v2
+    appVersion: 2.14.1
+    created: "2025-12-08T18:27:19.8227583Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-authtoken deployment
+    digest: bc0e910c1af6844af47fee6846087a8aa1a4584bb23ae5bb353d4fb0ba4a4a28
+    name: mod-authtoken
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-authtoken-2.14.49/mod-authtoken-2.14.49.tgz
+    version: 2.14.49
+  mod-batch-print:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:20.068086353Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-batch-print deployment
+    digest: dc104029ea3d27f80d644f36a5b7f385bdb87b806435e2fbea2a0ef31560e4fe
+    name: mod-batch-print
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-batch-print-1.0.48/mod-batch-print-1.0.48.tgz
+    version: 1.0.48
+  mod-bulk-operations:
+  - apiVersion: v2
+    appVersion: 1.1.9
+    created: "2025-12-08T18:27:20.292033481Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-bulk-operations deployment
+    digest: 67c235a213f8fd7e2f9a9c287b39aada027a406a3b0e5e17cc0234f2ad8728cb
+    name: mod-bulk-operations
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-bulk-operations-1.2.43/mod-bulk-operations-1.2.43.tgz
+    version: 1.2.43
+  mod-calendar:
+  - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2025-12-08T18:27:20.569627372Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-calendar deployment
+    digest: a7827c5d5a38707e0e37c7e50a4385c489614c41b77a0d3ffd801bbf4f237e6d
+    name: mod-calendar
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-calendar-2.5.47/mod-calendar-2.5.47.tgz
+    version: 2.5.47
+  mod-camunda:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-12-08T18:27:20.816076384Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio mod-camunda for Kubernetes
+    digest: 58d1da833a5f486c63ed30d0a0ba2d21fa47017c4f8d4b459fa8d99ac3a767c7
+    name: mod-camunda
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-camunda-1.2.47/mod-camunda-1.2.47.tgz
+    version: 1.2.47
+  mod-circulation:
+  - apiVersion: v2
+    appVersion: 24.0.11
+    created: "2025-12-08T18:27:21.042468083Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio for Kubernetes mod-circulation deployment
+    digest: a73dabceac53797837d2ff91fc6c98b0bf6b5c7b2b993024171504006accab33
+    name: mod-circulation
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-circulation-24.1.42/mod-circulation-24.1.42.tgz
+    version: 24.1.42
+  mod-circulation-bff:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-12-08T18:27:21.265062076Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio for Kubernetes mod-circulation-bff deployment
+    digest: 89514a08d33ac84058f1bed25871fb4532133349005f6977789262b353a7da48
+    name: mod-circulation-bff
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-circulation-bff-1.0.39/mod-circulation-bff-1.0.39.tgz
+    version: 1.0.39
+  mod-circulation-item:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:21.477140172Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio mod-circulation-item for Kubernetes
+    digest: eb7a6f0ead29083ad3f0863e0f66c0b58fa928370ef4811d6df9eabd94e1c7b9
+    name: mod-circulation-item
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-circulation-item-1.1.40/mod-circulation-item-1.1.40.tgz
+    version: 1.1.40
+  mod-circulation-storage:
+  - apiVersion: v2
+    appVersion: 17.1.7
+    created: "2025-12-08T18:27:21.706615685Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-circulation-storage deployment
+    digest: 860dd0790461bcf4f875ac86c29d1f60b6ee12b352e115a9e364bc3c83778696
+    name: mod-circulation-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-circulation-storage-17.2.42/mod-circulation-storage-17.2.42.tgz
+    version: 17.2.42
+  mod-codex-ekb:
+  - apiVersion: v2
+    appVersion: 1.10.0
+    created: "2025-12-08T18:27:21.913577263Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-codex-ekb deployment
+    digest: 8856fb4086ab0bb5098193e48acc1da060bec23dbe6623ecbc2af75cb9d518eb
+    name: mod-codex-ekb
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-codex-ekb-1.10.47/mod-codex-ekb-1.10.47.tgz
+    version: 1.10.47
+  mod-codex-inventory:
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2025-12-08T18:27:22.129782627Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-codex-inventory deployment
+    digest: 1231cb1fb9a31978fc0d4bded30242aa6ebc65959d197ecf99b7f0f6512824e2
+    name: mod-codex-inventory
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-codex-inventory-2.3.47/mod-codex-inventory-2.3.47.tgz
+    version: 2.3.47
+  mod-codex-mux:
+  - apiVersion: v2
+    appVersion: 2.12.0
+    created: "2025-12-08T18:27:22.394964414Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-codex-mux deployment
+    digest: c2e7aacd83730c5e8772d5b31b1ecef99ad99485c8764d99fe20a2ec4c9b308e
+    name: mod-codex-mux
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-codex-mux-2.12.47/mod-codex-mux-2.12.47.tgz
+    version: 2.12.47
+  mod-configuration:
+  - apiVersion: v2
+    appVersion: 5.9.2
+    created: "2025-12-08T18:27:22.602827196Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-configuration deployment
+    digest: 94c9bc676d2b086c76ba56c9b97775df4f95ded814d9f4e8b58508017d5e29fb
+    name: mod-configuration
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-configuration-5.9.49/mod-configuration-5.9.49.tgz
+    version: 5.9.49
+  mod-consortia:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-08T18:27:22.834199182Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-consortia deployment
+    digest: 615297d787b2563918718d301de17351e69179a798e08c9a1c4ba05d4cb20e94
+    name: mod-consortia
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-consortia-0.2.43/mod-consortia-0.2.43.tgz
+    version: 0.2.43
+  mod-consortia-keycloak:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:23.070434544Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-consortia-keycloak deployment
+    digest: ad914f8612e6b1e8ab283b2e5f3310bb33693569391a42086ccfc701f31b9044
+    name: mod-consortia-keycloak
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-consortia-keycloak-0.0.51/mod-consortia-keycloak-0.0.51.tgz
+    version: 0.0.51
+  mod-copycat:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2025-12-08T18:27:23.34950624Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-copycat deployment
+    digest: 4f3eef1a9f5d8ddbf5678a4e3e2a1e73631a4287725d2e844e5883746379c67b
+    name: mod-copycat
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-copycat-1.5.47/mod-copycat-1.5.47.tgz
+    version: 1.5.47
+  mod-courses:
+  - apiVersion: v2
+    appVersion: 1.4.8
+    created: "2025-12-08T18:27:23.58521123Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-courses deployment
+    digest: 4f0ac805bf58b1e328588a4e3a6b55df971a45f45db9c800b223a1fc715cbe88
+    name: mod-courses
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-courses-1.5.42/mod-courses-1.5.42.tgz
+    version: 1.5.42
+  mod-data-export:
+  - apiVersion: v2
+    appVersion: 4.8.7
+    created: "2025-12-08T18:27:23.798215194Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-data-export deployment
+    digest: 84d0ebe9806873f73615ce7d1c52b8a1cfe718d756d95200dc4683be9af41f15
+    name: mod-data-export
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-data-export-4.9.42/mod-data-export-4.9.42.tgz
+    version: 4.9.42
+  mod-data-export-spring:
+  - apiVersion: v2
+    appVersion: 3.0.2
+    created: "2025-12-08T18:27:24.026237597Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-data-export-spring deployment
+    digest: be19bb286ef4cabe465c7f408c9dbbbc89c8ee598531112d49c732e32cd7f623
+    name: mod-data-export-spring
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-data-export-spring-3.1.40/mod-data-export-spring-3.1.40.tgz
+    version: 3.1.40
+  mod-data-export-worker:
+  - apiVersion: v2
+    appVersion: 3.1.2
+    created: "2025-12-08T18:27:24.236446497Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-data-export-worker deployment
+    digest: 533fbc2a6435c56183907fa37ded2a9382cbb97b95bb87489983b1e321cd0fb1
+    name: mod-data-export-worker
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-data-export-worker-3.2.40/mod-data-export-worker-3.2.40.tgz
+    version: 3.2.40
+  mod-data-import:
+  - apiVersion: v2
+    appVersion: 3.0.7
+    created: "2025-12-08T18:27:24.476406631Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-data-import deployment
+    digest: cd47df2cec301b0e248b40361200d8190266da064ddd3d2d45d23d5914da3611
+    name: mod-data-import
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-data-import-3.1.43/mod-data-import-3.1.43.tgz
+    version: 3.1.43
+  mod-dcb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:24.696056252Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio mod-dcb for Kubernetes
+    digest: 07e8765037c11e6fdbd0e5af76daba51baa23cd2fbcf0f4aad67ee7e9501c0ab
+    name: mod-dcb
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-dcb-1.1.41/mod-dcb-1.1.41.tgz
+    version: 1.1.41
+  mod-di-converter-storage:
+  - apiVersion: v2
+    appVersion: 2.1.5
+    created: "2025-12-08T18:27:24.937141946Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-di-converter-storage deployment
+    digest: 0f53009d906706e1f797fd0c72a4c7adfb5c429da28982df8ee9a4248a0d9fad
+    name: mod-di-converter-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-di-converter-storage-2.2.42/mod-di-converter-storage-2.2.42.tgz
+    version: 2.2.42
+  mod-ebsconet:
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2025-12-08T18:27:25.201146053Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-ebsconet deployment
+    digest: 8e844d9143aa8d039f158cbababd3187154883a0692d2f3f4d05cd29bb7e4984
+    name: mod-ebsconet
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-ebsconet-2.1.48/mod-ebsconet-2.1.48.tgz
+    version: 2.1.48
+  mod-email:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-08T18:27:25.488589069Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-email deployment
+    digest: 94de07ebaf8443842f24d611c545d4ab91c4267f9be4e44a07a0ad7a92918335
+    name: mod-email
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-email-1.16.47/mod-email-1.16.47.tgz
+    version: 1.16.47
+  mod-entities-links:
+  - apiVersion: v2
+    appVersion: 2.0.4
+    created: "2025-12-08T18:27:25.757108006Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-entities-links deployment
+    digest: 584d93eed02169b25817b5a34fa5fce6b81750444c4d643697fe49579ef12e1c
+    name: mod-entities-links
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-entities-links-2.1.42/mod-entities-links-2.1.42.tgz
+    version: 2.1.42
+  mod-erm-usage:
+  - apiVersion: v2
+    appVersion: 4.6.0
+    created: "2025-12-08T18:27:26.019114705Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-erm-usage deployment
+    digest: f616d953c98b5764ab6708e551bc12a7f13f04eb1e2ce6b152de4b2a526842ca
+    name: mod-erm-usage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-erm-usage-4.6.47/mod-erm-usage-4.6.47.tgz
+    version: 4.6.47
+  mod-erm-usage-harvester:
+  - apiVersion: v2
+    appVersion: 4.4.1
+    created: "2025-12-08T18:27:26.243272377Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-erm-usage-harvester deployment
+    digest: df07ba54644e98e4ce016bb71eee28d95540fa8e0395ef425389f4116d84b81e
+    name: mod-erm-usage-harvester
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-erm-usage-harvester-4.4.48/mod-erm-usage-harvester-4.4.48.tgz
+    version: 4.4.48
+  mod-eusage-reports:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-12-08T18:27:26.57915007Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-eusage-reports deployment
+    digest: 8ed12eac311b075caa06cd7bd797dfd88ac88620e281a4098d96f3f561d94e08
+    name: mod-eusage-reports
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-eusage-reports-2.0.47/mod-eusage-reports-2.0.47.tgz
+    version: 2.0.47
+  mod-event-config:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2025-12-08T18:27:26.837673896Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-event-config deployment
+    digest: 100c233ff28b5c5709ee2700fb380e12211cd8d6363cd02ebad37f667aaefbe9
+    name: mod-event-config
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-event-config-2.6.47/mod-event-config-2.6.47.tgz
+    version: 2.6.47
+  mod-feesfines:
+  - apiVersion: v2
+    appVersion: 19.0.0
+    created: "2025-12-08T18:27:27.053829143Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-feesfines deployment
+    digest: 8976bfae9718ee8c88d4098e3f13389f9e15be3e90988519a3b11661b35c0e24
+    name: mod-feesfines
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-feesfines-19.0.47/mod-feesfines-19.0.47.tgz
+    version: 19.0.47
+  mod-finance:
+  - apiVersion: v2
+    appVersion: 4.8.0
+    created: "2025-12-08T18:27:27.249461308Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-finance deployment
+    digest: a93c3e88e314892e4c1f9142972710910541f76d4e5f34769276719bff7dfb03
+    name: mod-finance
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-finance-4.8.47/mod-finance-4.8.47.tgz
+    version: 4.8.47
+  mod-finance-storage:
+  - apiVersion: v2
+    appVersion: 8.5.0
+    created: "2025-12-08T18:27:27.5708128Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-finance-storage deployment
+    digest: 7680619b0e6bc75a7928f7df9ebbe39623a4220914182d875523138d68ec434d
+    name: mod-finance-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-finance-storage-8.5.47/mod-finance-storage-8.5.47.tgz
+    version: 8.5.47
+  mod-finc-config:
+  - apiVersion: v2
+    appVersion: 6.1.0
+    created: "2025-12-08T18:27:27.814171675Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-finc-config deployment
+    digest: 68f3048b022d28a4221d1eb76b7840dee586d22e82ed954b9501932f81b36f14
+    name: mod-finc-config
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-finc-config-6.1.9/mod-finc-config-6.1.9.tgz
+    version: 6.1.9
+  mod-fqm-manager:
+  - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2025-12-08T18:27:28.078385612Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-fqm-manager deployment
+    digest: 76357c3a04a4c826b114b3dbe1a0424503a66df8fe019df9cded3701b0565ec4
+    name: mod-fqm-manager
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-fqm-manager-1.1.40/mod-fqm-manager-1.1.40.tgz
+    version: 1.1.40
+  mod-gobi:
+  - apiVersion: v2
+    appVersion: 2.7.1
+    created: "2025-12-08T18:27:28.309028022Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-gobi deployment
+    digest: 1e94ae97e1c0dbef5cd94158c773c545e834a809af242c78bedb85769279be93
+    name: mod-gobi
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-gobi-2.7.48/mod-gobi-2.7.48.tgz
+    version: 2.7.48
+  mod-graphql:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2025-12-08T18:27:28.529660773Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-graphql deployment
+    digest: 8dc9d93182efa957ef5c8947a075b16daacbf5714edc099f1522d84d629ec9cd
+    name: mod-graphql
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-graphql-1.12.47/mod-graphql-1.12.47.tgz
+    version: 1.12.47
+  mod-inn-reach:
+  - apiVersion: v2
+    appVersion: 3.1.1
+    created: "2025-12-08T18:27:28.786070536Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-inn-reach deployment
+    digest: 976c1e35f90cf731c182bd51d238c5ea1093ea90100c3b4fc7eccda464b45ed6
+    name: mod-inn-reach
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-inn-reach-3.1.49/mod-inn-reach-3.1.49.tgz
+    version: 3.1.49
+  mod-inventory:
+  - apiVersion: v2
+    appVersion: 20.1.6
+    created: "2025-12-08T18:27:29.015644655Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-invertory deployment
+    digest: c69af7f6b441cc5e6e0699a432f2514ccf43773163dcc541b5da8ba3fdd2ded4
+    name: mod-inventory
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-inventory-20.2.42/mod-inventory-20.2.42.tgz
+    version: 20.2.42
+  mod-inventory-storage:
+  - apiVersion: v2
+    appVersion: 27.0.4
+    created: "2025-12-08T18:27:29.236606611Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-inventory-storage deployment
+    digest: 28814f3983aebd9f7d982e1c9acb31b4ac5d9ee21d4d349f7d42bc0356bbb177
+    name: mod-inventory-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-inventory-storage-27.1.41/mod-inventory-storage-27.1.41.tgz
+    version: 27.1.41
+  mod-inventory-update:
+  - apiVersion: v2
+    appVersion: 3.2.1
+    created: "2025-12-08T18:27:29.432652344Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-inventory-update deployment
+    digest: 94a6f4969b9ac771b4df2f7111a5a9cc961628c2ad33156934d8918da439b22f
+    name: mod-inventory-update
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-inventory-update-3.2.49/mod-inventory-update-3.2.49.tgz
+    version: 3.2.49
+  mod-invoice:
+  - apiVersion: v2
+    appVersion: 5.7.2
+    created: "2025-12-08T18:27:29.634879899Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-invoice deployment
+    digest: c3eaff1d6eb8afd5404d06d8976b1a2ff082442d88ddf18f286bcad684bed9e4
+    name: mod-invoice
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-invoice-5.8.40/mod-invoice-5.8.40.tgz
+    version: 5.8.40
+  mod-invoice-storage:
+  - apiVersion: v2
+    appVersion: 5.7.0
+    created: "2025-12-08T18:27:29.879275358Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-invoice-storage deployment
+    digest: 5ef60433e9d7f846f3110995282ab558e8a9dc7864c0ae9ecc8b8c836847617e
+    name: mod-invoice-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-invoice-storage-5.7.48/mod-invoice-storage-5.7.48.tgz
+    version: 5.7.48
+  mod-kb-ebsco-java:
+  - apiVersion: v2
+    appVersion: 4.0.0
+    created: "2025-12-08T18:27:30.12944045Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-kb-ebsco-java deployment
+    digest: 98d595701486cb39528169718741dc22d767174ec8690ba1febc8c0464cc2842
+    name: mod-kb-ebsco-java
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-kb-ebsco-java-4.0.47/mod-kb-ebsco-java-4.0.47.tgz
+    version: 4.0.47
+  mod-ldp:
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2025-12-08T18:27:30.406677398Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-ldp deployment
+    digest: 7bf8dc441a72f78218b023e8b8eeefaed41d84bc7a3b9d5077854f9764f2270d
+    name: mod-ldp
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-ldp-1.1.50/mod-ldp-1.1.50.tgz
+    version: 1.1.50
+  mod-licenses:
+  - apiVersion: v2
+    appVersion: 5.0.2
+    created: "2025-12-08T18:27:30.69901392Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-licenses deployment
+    digest: d2c914f2488074dcbb6baa431cbe7955e296f2a1142e95811b3e7b0f1ca0759d
+    name: mod-licenses
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-licenses-5.0.49/mod-licenses-5.0.49.tgz
+    version: 5.0.49
+  mod-linked-data:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-12-08T18:27:30.894319651Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-linked-data deployment
+    digest: 68e2d7269657218e9d7c4c6ca2d25202e1d3b18725df3d2f9ffd5386be86e5c0
+    name: mod-linked-data
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-linked-data-1.0.25/mod-linked-data-1.0.25.tgz
+    version: 1.0.25
+  mod-linked-data-import:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:31.102862597Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-linked-data-import deployment
+    digest: 643b3c8166caa2cd0a4ceb49d9cb1b0f2f3dcf6dd6dfff508be65d77260f03df
+    name: mod-linked-data-import
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-linked-data-import-1.0.4/mod-linked-data-import-1.0.4.tgz
+    version: 1.0.4
+  mod-lists:
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2025-12-08T18:27:31.369361563Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-lists deployment
+    digest: 1937e5acb13541274dbbcc737c732e024b8cbee663dffb22763c89078ed8046d
+    name: mod-lists
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-lists-1.1.43/mod-lists-1.1.43.tgz
+    version: 1.1.43
+  mod-login:
+  - apiVersion: v2
+    appVersion: 7.10.1
+    created: "2025-12-08T18:27:31.607344712Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-login deployment
+    digest: 70336ea67039433ace56bf904016ae6dd6cd9930c8901cf18d772210fe7fe68e
+    name: mod-login
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-login-7.10.48/mod-login-7.10.48.tgz
+    version: 7.10.48
+  mod-login-keycloak:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:31.871317766Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-login-keycloak deployment
+    digest: 23f13baa9273d365d52879fb0fb51d09d346cf73fae1e5ed70d092648b4ea877
+    name: mod-login-keycloak
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-login-keycloak-0.0.50/mod-login-keycloak-0.0.50.tgz
+    version: 0.0.50
+  mod-login-saml:
+  - apiVersion: v2
+    appVersion: 2.7.2
+    created: "2025-12-08T18:27:32.096879386Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-login-saml deployment
+    digest: bdb22db1faa33ff27acde900df72e698b58ee8c3b06a4873c4ad588ab572ab3a
+    name: mod-login-saml
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-login-saml-2.7.50/mod-login-saml-2.7.50.tgz
+    version: 2.7.50
+  mod-marc-migrations:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:32.335648083Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-marc-migrations deployment
+    digest: 8829530e1971250d76de0dd73672fae7a0a114377b5f9cbaaa445fdad40c6223
+    name: mod-marc-migrations
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-marc-migrations-1.0.48/mod-marc-migrations-1.0.48.tgz
+    version: 1.0.48
+  mod-marccat:
+  - apiVersion: v2
+    appVersion: 2.2.5
+    created: "2025-12-08T18:27:32.546350835Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-marccat deployment
+    digest: 00ced71804d896d3dd3474f74cd72e3e7f11e171dde6e8aab4a785392ee63434
+    name: mod-marccat
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-marccat-2.3.42/mod-marccat-2.3.42.tgz
+    version: 2.3.42
+  mod-mosaic:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2025-12-08T18:27:32.754485253Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-mosaic deployment
+    digest: 4459ffacd537ffaf539c8cdb1692fcd5823b6ebe8233965530dfaf137e9efe49
+    name: mod-mosaic
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-mosaic-1.1.14/mod-mosaic-1.1.14.tgz
+    version: 1.1.14
+  mod-ncip:
+  - apiVersion: v2
+    appVersion: 1.14.4
+    created: "2025-12-08T18:27:32.964794471Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-ncip deployment
+    digest: f95d9fc5e20031709a401076d4a92c5f100830ee50b34066987e5bdaa87a6d50
+    name: mod-ncip
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-ncip-2.0.40/mod-ncip-2.0.40.tgz
+    version: 2.0.40
+  mod-notes:
+  - apiVersion: v2
+    appVersion: 5.1.0
+    created: "2025-12-08T18:27:33.228662096Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-notes deployment
+    digest: 9c02d57b1d0c513c899912b025b8e43102e90e307c0f6918f315b7047c58c860
+    name: mod-notes
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-notes-5.1.47/mod-notes-5.1.47.tgz
+    version: 5.1.47
+  mod-notify:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2025-12-08T18:27:33.449816652Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-notify deployment
+    digest: af2d75c215bebb363078393205ea588ac6de50713a7a890b3ccc9a86f73b375e
+    name: mod-notify
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-notify-3.1.47/mod-notify-3.1.47.tgz
+    version: 3.1.47
+  mod-oa:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-12-08T18:27:33.661675105Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-oa deployment
+    digest: 442412e7aa4d0c5e3c51cac989940a9902373e96af2e962fad718ff3008bcee9
+    name: mod-oa
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-oa-2.0.47/mod-oa-2.0.47.tgz
+    version: 2.0.47
+  mod-oai-pmh:
+  - apiVersion: v2
+    appVersion: 3.12.8
+    created: "2025-12-08T18:27:33.912054834Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-oai-pmh deployment
+    digest: c8166ddf5bd8cf4c4ae9ab69d30e82d61f1373c31134b3fb2bf8bca4e39f728e
+    name: mod-oai-pmh
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-oai-pmh-4.0.42/mod-oai-pmh-4.0.42.tgz
+    version: 4.0.42
+  mod-okapi-facade:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:34.141850899Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-okapi-facade deployment
+    digest: 64ac77c64640b51f6bc835d382c796bb0348ffb26b8f8a0369b0625d6fb3c0ae
+    name: mod-okapi-facade
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-okapi-facade-0.0.26/mod-okapi-facade-0.0.26.tgz
+    version: 0.0.26
+  mod-orders:
+  - apiVersion: v2
+    appVersion: 12.7.1
+    created: "2025-12-08T18:27:34.387693666Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-orders deployment
+    digest: d3ab31eb5579cd3563549caeb57f770e42e3fe29975df1cf3df77adc0499423c
+    name: mod-orders
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-orders-12.7.48/mod-orders-12.7.48.tgz
+    version: 12.7.48
+  mod-orders-storage:
+  - apiVersion: v2
+    appVersion: 13.6.0
+    created: "2025-12-08T18:27:34.610098043Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-orders-storage deployment
+    digest: e8d80fc517780095e291db036dcfa5003b0efd5f525920835468c5d3dd37ef92
+    name: mod-orders-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-orders-storage-13.6.48/mod-orders-storage-13.6.48.tgz
+    version: 13.6.48
+  mod-organizations:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2025-12-08T18:27:34.82549402Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-organizations deployment
+    digest: 8e58152c27e4eae499a703ae7749f586061001b349e82377c55c881a2ab970a8
+    name: mod-organizations
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-organizations-1.8.47/mod-organizations-1.8.47.tgz
+    version: 1.8.47
+  mod-organizations-storage:
+  - apiVersion: v2
+    appVersion: 4.6.0
+    created: "2025-12-08T18:27:35.063106299Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-organizations-storage deployment
+    digest: 6f52319ca76a9cde13196a6c2de3189c596e09c9fa52195a72733c0acf1f84af
+    name: mod-organizations-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-organizations-storage-4.6.48/mod-organizations-storage-4.6.48.tgz
+    version: 4.6.48
+  mod-password-validator:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2025-12-08T18:27:35.293405174Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-password-validator deployment
+    digest: 672f75ad6f963435e235fb7979627885dc347f32ee4b6fe88beb0e81c577bf42
+    name: mod-password-validator
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-password-validator-3.1.47/mod-password-validator-3.1.47.tgz
+    version: 3.1.47
+  mod-patron:
+  - apiVersion: v2
+    appVersion: 6.0.0
+    created: "2025-12-08T18:27:35.524806446Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-patron deployment
+    digest: c9d20ccb32abdd9337057106adbb285c08ff92b1062d83a4223fa59d542da2ac
+    name: mod-patron
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-patron-6.0.46/mod-patron-6.0.46.tgz
+    version: 6.0.46
+  mod-patron-blocks:
+  - apiVersion: v2
+    appVersion: 1.9.0
+    created: "2025-12-08T18:27:35.777614556Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-patron-blocks deployment
+    digest: a154efaa76ccafe77c07df31ed53830a2adf8081f82b355b36a8d944e0fc791c
+    name: mod-patron-blocks
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-patron-blocks-1.9.47/mod-patron-blocks-1.9.47.tgz
+    version: 1.9.47
+  mod-permissions:
+  - apiVersion: v2
+    appVersion: 6.4.0
+    created: "2025-12-08T18:27:35.997682597Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart mod-permissions for Kubernetes mod-permissions deployment
+    digest: 2716a1f734ea05f3cf54b57954e4481b81a7a9df55dc8b5fab0acdf0edd0cbf6
+    name: mod-permissions
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-permissions-6.4.47/mod-permissions-6.4.47.tgz
+    version: 6.4.47
+  mod-pubsub:
+  - apiVersion: v2
+    appVersion: 2.11.3
+    created: "2025-12-08T18:27:36.231268115Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-pubsub deployment
+    digest: 7b0f705031dd41e2fa7ce350b5b708f8624173ae54ec443b30fde728a0fc6e45
+    name: mod-pubsub
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-pubsub-3.0.40/mod-pubsub-3.0.40.tgz
+    version: 3.0.40
+  mod-quick-marc:
+  - apiVersion: v2
+    appVersion: 5.0.1
+    created: "2025-12-08T18:27:36.448995238Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-quick-marc deployment
+    digest: a48db854aabe48a3ba4941b35fca1c8668be225dcd8061509145570ab7813172
+    name: mod-quick-marc
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-quick-marc-5.0.49/mod-quick-marc-5.0.49.tgz
+    version: 5.0.49
+  mod-reading-room:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:36.679533872Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-remote-storage deployment
+    digest: 50ec4d64a74ab433eed028ed4cad5f138fa2d0fae2cf1faca3e9f8776ff3cca4
+    name: mod-reading-room
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-reading-room-1.0.48/mod-reading-room-1.0.48.tgz
+    version: 1.0.48
+  mod-record-specifications:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:36.945490949Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-record-specifications deployment
+    digest: 24e5a96c729bdd67e9cd238eb171a075aa2d05aa86a312a017fb2fb6bd6b4bca
+    name: mod-record-specifications
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-record-specifications-1.0.48/mod-record-specifications-1.0.48.tgz
+    version: 1.0.48
+  mod-remote-storage:
+  - apiVersion: v2
+    appVersion: 3.0.1
+    created: "2025-12-08T18:27:37.186132107Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-remote-storage deployment
+    digest: a7464c385330c4488836a26d8b3d3d2d6a320fb92b3e38d561355684b8e9a7ba
+    name: mod-remote-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-remote-storage-3.0.49/mod-remote-storage-3.0.49.tgz
+    version: 3.0.49
+  mod-reporting:
+  - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2025-12-08T18:27:37.42611326Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 1adde91e9ced5bfea6c22f4701f8db0d716332a265be8bd6021760bd8ab44589
+    name: mod-reporting
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-reporting-1.0.31/mod-reporting-1.0.31.tgz
+    version: 1.0.31
+  mod-requests-mediated:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:37.670758031Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-requests-mediated deployment
+    digest: 36442f38deb6b00a0279722eb6ed583ecd00dae9292677a65d5bd5a4cc9149fb
+    name: mod-requests-mediated
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-requests-mediated-1.0.47/mod-requests-mediated-1.0.47.tgz
+    version: 1.0.47
+  mod-roles-keycloak:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:37.891633199Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-roles-keycloak deployment
+    digest: 82e1ee48f44827691ba5eed7a2ec9664369db08d6076c54ea08a44e1c1b39118
+    name: mod-roles-keycloak
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-roles-keycloak-0.0.50/mod-roles-keycloak-0.0.50.tgz
+    version: 0.0.50
+  mod-rtac:
+  - apiVersion: v2
+    appVersion: 3.5.0
+    created: "2025-12-08T18:27:38.136856534Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-rtac dependencies
+    digest: 857c95b8f429afe75fcb98748fbb8d513bbd1f31e1778a48d429da8e56593d17
+    name: mod-rtac
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-rtac-3.5.47/mod-rtac-3.5.47.tgz
+    version: 3.5.47
+  mod-scheduler:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-12-08T18:27:38.508861111Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-scheduler deployment
+    digest: 44a31862721424067b7231bcc532c0e7e4c3afa883b57a41ec8b0a6eb9bf7fb1
+    name: mod-scheduler
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-scheduler-0.0.50/mod-scheduler-0.0.50.tgz
+    version: 0.0.50
+  mod-search:
+  - apiVersion: v2
+    appVersion: 3.0.5
+    created: "2025-12-08T18:27:38.722550858Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes deployment
+    digest: 1c7c0686019a5b4cd26113242de09031fc9d3cc9b55d3f4c133b0b0c5fbadc3f
+    name: mod-search
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-search-3.1.43/mod-search-3.1.43.tgz
+    version: 3.1.43
+  mod-sender:
+  - apiVersion: v2
+    appVersion: 1.11.0
+    created: "2025-12-08T18:27:38.94784469Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-sender deployment
+    digest: 7a4c0fdac654e3d77de6162b959d0bcc4bffa0c1fa9aa2ffcfe7a2208424fe04
+    name: mod-sender
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-sender-1.11.47/mod-sender-1.11.47.tgz
+    version: 1.11.47
+  mod-serials-management:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:39.216486445Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-serials-management deployment
+    digest: a098f1f123b8f74a00746ec2d3032aeeb29a92be4b6295ae3232b1ba74b0cc35
+    name: mod-serials-management
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-serials-management-1.0.47/mod-serials-management-1.0.47.tgz
+    version: 1.0.47
+  mod-service-interaction:
+  - apiVersion: v2
+    appVersion: 3.0.2
+    created: "2025-12-08T18:27:39.419176016Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-service-interaction deployment
+    digest: af80a591b2305143c30194bafa617f409c56c6182829da434d95d71e0dd5bda6
+    name: mod-service-interaction
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-service-interaction-3.0.49/mod-service-interaction-3.0.49.tgz
+    version: 3.0.49
+  mod-settings:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-12-08T18:27:39.651166161Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-settings deployment
+    digest: 87eb550144d032fc76a16e57d21202e72ec74f98114eff43365e98055efab1f1
+    name: mod-settings
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-settings-1.0.49/mod-settings-1.0.49.tgz
+    version: 1.0.49
+  mod-source-record-manager:
+  - apiVersion: v2
+    appVersion: 3.7.7
+    created: "2025-12-08T18:27:39.876392458Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-source-record-manager deployment
+    digest: 6c915bd69c2c79cd70eecb579393af3554f10e9f1353a312d1907bc6f20ac5a9
+    name: mod-source-record-manager
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-source-record-manager-3.8.42/mod-source-record-manager-3.8.42.tgz
+    version: 3.8.42
+  mod-source-record-storage:
+  - apiVersion: v2
+    appVersion: 5.7.5
+    created: "2025-12-08T18:27:40.118525234Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-source-record-storage deployment
+    digest: 993c94768837f3c853cded8d9f521241c63ed8167eb1d2690783261768ee7fb4
+    name: mod-source-record-storage
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-source-record-storage-5.8.43/mod-source-record-storage-5.8.43.tgz
+    version: 5.8.43
+  mod-tags:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2025-12-08T18:27:40.374606514Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-tags deployment
+    digest: 7c889d73348fdee2756aa274459fd637728808bf71a4ea6788da40db309c40b3
+    name: mod-tags
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-tags-2.1.47/mod-tags-2.1.47.tgz
+    version: 2.1.47
+  mod-template-engine:
+  - apiVersion: v2
+    appVersion: 1.19.1
+    created: "2025-12-08T18:27:40.578011796Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-template-engine deployment
+    digest: 694100986bafd39404b770da1da2de49c74675b54627e6424abea0fc2ff8046a
+    name: mod-template-engine
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-template-engine-1.19.48/mod-template-engine-1.19.48.tgz
+    version: 1.19.48
+  mod-tlr:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-08T18:27:40.794824373Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-tlr deployment
+    digest: f5f2635155aba9e6b794684dd34062ed030c8d4cd8c382b90fca103524a141c5
+    name: mod-tlr
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-tlr-1.0.48/mod-tlr-1.0.48.tgz
+    version: 1.0.48
+  mod-user-import:
+  - apiVersion: v2
+    appVersion: 3.8.0
+    created: "2025-12-08T18:27:40.992634596Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-user-import deployment
+    digest: b60ee7cfecd36bfc535bc50afafc8b35db5a00ce0bacaec4e2a4b59a533bb2e7
+    name: mod-user-import
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-user-import-3.8.47/mod-user-import-3.8.47.tgz
+    version: 3.8.47
+  mod-users:
+  - apiVersion: v2
+    appVersion: 19.2.2
+    created: "2025-12-08T18:27:41.276489347Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio mod-users for Kubernetes mod-users deployment
+    digest: b16ece59bbaacc382f7a7faee621d5a72e5de51851e72ebc0a3cfd7550df7363
+    name: mod-users
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-users-19.3.40/mod-users-19.3.40.tgz
+    version: 19.3.40
+  mod-users-bl:
+  - apiVersion: v2
+    appVersion: 7.6.0
+    created: "2025-12-08T18:27:41.489207888Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-users-bl deployment
+    digest: b711c4c722140a6f32462903d07d2ad9fb8b5840d0cafe2d7298faeb83f07cec
+    name: mod-users-bl
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-users-bl-7.6.47/mod-users-bl-7.6.47.tgz
+    version: 7.6.47
+  mod-users-keycloak:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2025-12-08T18:27:41.750611778Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-users-keycloak deployment
+    digest: 230a499a85ed57d0d8e53f49d5b923f5f10cebcf07a84da4a5a7946e09be56c2
+    name: mod-users-keycloak
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-users-keycloak-0.0.50/mod-users-keycloak-0.0.50.tgz
+    version: 0.0.50
+  mod-workflow:
+  - apiVersion: v2
+    appVersion: 1.1.7
+    created: "2025-12-08T18:27:41.962223153Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart Folio mod-workflow for Kubernetes
+    digest: 309e528659f72d2b0c50140e42f1103deeb626532d8e5feb65563152152f8fa2
+    name: mod-workflow
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-workflow-1.2.44/mod-workflow-1.2.44.tgz
+    version: 1.2.44
+  mod-z3950:
+  - apiVersion: v2
+    appVersion: 3.3.5
+    created: "2025-12-08T18:27:42.209157396Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-z3950 deployment
+    digest: 2a3b40d5e9d2ec5a1ab5557b857469d61b99c8574ccd064e89cf27633347b316
+    name: mod-z3950
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-z3950-3.4.41/mod-z3950-3.4.41.tgz
+    version: 3.4.41
+  okapi:
+  - apiVersion: v2
+    appVersion: 5.1.2
+    created: "2025-12-08T18:27:42.446955146Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes Okapi deployment
+    digest: 462e8f7fc6780afb9938ac7485cbdc69e7dde682a191ddf0615ac4317a626c69
+    name: okapi
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/okapi-5.1.22/okapi-5.1.22.tgz
+    version: 5.1.22
+  platform-complete:
+  - apiVersion: v2
+    appVersion: 2.23.0
+    created: "2025-12-08T18:27:42.653825657Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes platform-complete (stripes) deployment
+    digest: 269bcdec19c31cecd1473393998a3ca245ed5108f888cad3ede1bacec2d8e8fa
+    name: platform-complete
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-complete-2.23.14/platform-complete-2.23.14.tgz
+    version: 2.23.14
+  platform-core:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-08T18:27:42.939981065Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: ~0.1.0
+    description: A Helm chart Stripes Platform-core for Kubernetes
+    digest: ddc2f29f0defa761da8f7090d70ee0c5ded870392bf7fac95e466936dfb404ea
+    name: platform-core
+    type: application
+    urls:
+    - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-core-0.1.25/platform-core-0.1.25.tgz
+    version: 0.1.25
+generated: "2025-12-08T18:27:42.940006492Z"
