@@ -57,6 +57,13 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
+httpRoute:
+  enabled: false
+  allowedCIDRs: []
+  allowOrigins: []
+  allowMethods: []
+  rules: []
+
 args: []
 
 eureka:
