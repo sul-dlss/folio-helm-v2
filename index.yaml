@@ -3543,6 +3543,20 @@ entries:
   platform-complete:
   - apiVersion: v2
     appVersion: 2.23.0
+    created: "2026-02-06T22:41:07.176910639Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes platform-complete (stripes) deployment
+    digest: 18bbafdeb17a1f1695c3faba6ca46851a25969bba80d9ccb1847fb01bacee17c
+    name: platform-complete
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/platform-complete-2.24.0/platform-complete-2.24.0.tgz
+    version: 2.24.0
+  - apiVersion: v2
+    appVersion: 2.23.0
     created: "2025-12-08T18:44:46.620182401Z"
     dependencies:
     - name: folio-common
@@ -3598,4 +3612,4 @@ entries:
     urls:
     - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-core-0.1.25/platform-core-0.1.25.tgz
     version: 0.1.25
-generated: "2025-12-08T18:44:46.758951309Z"
+generated: "2026-02-06T22:41:07.177307054Z"
