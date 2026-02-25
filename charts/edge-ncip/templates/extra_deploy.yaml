@@ -1,0 +1,7 @@
+{{/* vim: set filetype=mustache: */}}
+
+{{- if .Values.extraDeploy }}
+{{- range .Values.extraDeploy }}
+   {{ . }}
+  {{- end }}
+{{- end }}
