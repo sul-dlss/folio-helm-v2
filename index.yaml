@@ -274,6 +274,20 @@ entries:
   edge-ncip:
   - apiVersion: v2
     appVersion: 1.9.2
+    created: "2026-02-26T15:04:22.620470665Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-ncip deployment
+    digest: 8cc86f953e2f5b634d0338eaeb30a6f3fdea7a5818d2c9cb3ad65575aad3b545
+    name: edge-ncip
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/edge-ncip-1.10.0/edge-ncip-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v2
+    appVersion: 1.9.2
     created: "2025-12-08T18:44:28.589200054Z"
     dependencies:
     - name: folio-common
@@ -3485,6 +3499,20 @@ entries:
   mod-z3950:
   - apiVersion: v2
     appVersion: 3.3.5
+    created: "2026-02-26T15:04:22.798308926Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-z3950 deployment
+    digest: 28454dc9de8b32961a5975754a6c58a8b1394cd4e153039d8468a59885f24742
+    name: mod-z3950
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-z3950-3.5.0/mod-z3950-3.5.0.tgz
+    version: 3.5.0
+  - apiVersion: v2
+    appVersion: 3.3.5
     created: "2025-12-08T18:44:46.304214491Z"
     dependencies:
     - name: folio-common
@@ -3612,4 +3640,4 @@ entries:
     urls:
     - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-core-0.1.25/platform-core-0.1.25.tgz
     version: 0.1.25
-generated: "2026-02-06T22:41:07.177307054Z"
+generated: "2026-02-26T15:04:22.798652855Z"
