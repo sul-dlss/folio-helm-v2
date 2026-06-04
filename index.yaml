@@ -400,6 +400,20 @@ entries:
   edge-ncip:
   - apiVersion: v2
     appVersion: 1.9.2
+    created: "2026-06-04T22:34:10.522408346Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes edge-ncip deployment
+    digest: 660e65cdc1d0aef15b9f966c6de11bfd543118791e2cca67032a8de1672f4aab
+    name: edge-ncip
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/edge-ncip-1.10.1/edge-ncip-1.10.1.tgz
+    version: 1.10.1
+  - apiVersion: v2
+    appVersion: 1.9.2
     created: "2026-02-26T15:04:22.620470665Z"
     dependencies:
     - name: folio-common
@@ -5190,6 +5204,20 @@ entries:
   mod-z3950:
   - apiVersion: v2
     appVersion: 3.3.5
+    created: "2026-06-04T22:34:10.663676287Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes mod-z3950 deployment
+    digest: a3efa00b0063533d172cfe15f748399f0eb712b2fdfeb179e2c29b10770a19b9
+    name: mod-z3950
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-z3950-3.5.1/mod-z3950-3.5.1.tgz
+    version: 3.5.1
+  - apiVersion: v2
+    appVersion: 3.3.5
     created: "2026-02-26T15:04:22.798308926Z"
     dependencies:
     - name: folio-common
@@ -5262,6 +5290,20 @@ entries:
   platform-complete:
   - apiVersion: v2
     appVersion: 2.23.0
+    created: "2026-06-04T22:34:10.824197809Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: ~0.2.0
+    description: A Helm chart for Kubernetes platform-complete (stripes) deployment
+    digest: 6bcf228af9b7c75b06944d24b607e364eb62b1130ea44f114192750c6d0aaa69
+    name: platform-complete
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/platform-complete-2.24.1/platform-complete-2.24.1.tgz
+    version: 2.24.1
+  - apiVersion: v2
+    appVersion: 2.23.0
     created: "2026-02-06T22:41:07.176910639Z"
     dependencies:
     - name: folio-common
@@ -5331,4 +5373,4 @@ entries:
     urls:
     - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-core-0.1.25/platform-core-0.1.25.tgz
     version: 0.1.25
-generated: "2026-06-04T19:33:49.150166526Z"
+generated: "2026-06-04T22:34:10.82474608Z"
