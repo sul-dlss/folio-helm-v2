@@ -14,9 +14,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Helm Dependency Update
+      - name: Update Chart Dependencies
         run: |
-          helm dependency update charts/folio-common
+          for dir in charts/*/; do
+            if [ -f "$dir/Chart.yaml" ]; then
+              helm dependency update "$dir"
+            fi
+          done
 
       - name: Configure Git
         run: |
