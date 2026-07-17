@@ -25,5 +25,5 @@ appVersion: "3.0.2"
 
 dependencies:
 - name: folio-common
-  version: ~0.2.0
+  version: 0.2.x
   repository: file://../folio-common
