@@ -14,11 +14,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build Chart Dependencies
+      - name: Update Chart Dependencies
         run: |
           for dir in charts/*/; do
             if [ -f "$dir/Chart.yaml" ]; then
-              helm dependency build "$dir"
+              helm dependency update "$dir"
             fi
           done
 
