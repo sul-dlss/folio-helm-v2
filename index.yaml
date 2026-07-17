@@ -1228,6 +1228,20 @@ entries:
   mod-bulk-operations:
   - apiVersion: v2
     appVersion: 1.1.9
+    created: "2026-07-17T21:40:26.654047239Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: 0.2.x
+    description: A Helm chart for Kubernetes mod-bulk-operations deployment
+    digest: 6e3bab6573b2259ecd490cfda9d05cef6269c08e776e790fd47bddfb38e24261
+    name: mod-bulk-operations
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-bulk-operations-1.2.50/mod-bulk-operations-1.2.50.tgz
+    version: 1.2.50
+  - apiVersion: v2
+    appVersion: 1.1.9
     created: "2026-06-04T19:33:27.135487237Z"
     dependencies:
     - name: folio-common
@@ -1873,6 +1887,20 @@ entries:
   mod-data-export:
   - apiVersion: v2
     appVersion: 4.8.7
+    created: "2026-07-17T21:40:29.070823352Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: 0.2.x
+    description: A Helm chart for Kubernetes mod-data-export deployment
+    digest: 5d3e034e26b6702fd91e2febb8321251cd11d8e6ab4dc03083e93851f3987b06
+    name: mod-data-export
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-data-export-4.9.49/mod-data-export-4.9.49.tgz
+    version: 4.9.49
+  - apiVersion: v2
+    appVersion: 4.8.7
     created: "2026-06-04T19:33:30.437921893Z"
     dependencies:
     - name: folio-common
@@ -2000,6 +2028,20 @@ entries:
     - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/mod-data-export-worker-3.2.40/mod-data-export-worker-3.2.40.tgz
     version: 3.2.40
   mod-data-import:
+  - apiVersion: v2
+    appVersion: 3.0.7
+    created: "2026-07-17T21:40:29.60134541Z"
+    dependencies:
+    - name: folio-common
+      repository: file://../folio-common
+      version: 0.2.x
+    description: A Helm chart for Kubernetes mod-data-import deployment
+    digest: 806166ee5c6392945886011fc12e27f41f5f006f57908a677d82ee0a7e4a095f
+    name: mod-data-import
+    type: application
+    urls:
+    - https://github.com/sul-dlss/folio-helm-v2/releases/download/mod-data-import-3.1.50/mod-data-import-3.1.50.tgz
+    version: 3.1.50
   - apiVersion: v2
     appVersion: 3.0.7
     created: "2026-06-04T19:33:31.190016629Z"
@@ -5397,4 +5439,4 @@ entries:
     urls:
     - https://github.com/sul-dlss-labs/folio-helm-v2/releases/download/platform-core-0.1.25/platform-core-0.1.25.tgz
     version: 0.1.25
-generated: "2026-07-16T20:16:57.554181004Z"
+generated: "2026-07-17T21:40:41.619600282Z"
