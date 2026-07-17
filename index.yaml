@@ -17,7 +17,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-caiasoft deployment
     digest: 0e568227b2991a886cbd39b5ba46c7ecf93fc22bea63280ba33ebd81421609db
     name: edge-caiasoft
@@ -31,7 +31,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-caiasoft deployment
     digest: 133236ea246b7537e29b41657240df76c9acb9bc89c641565b6acd564033c683
     name: edge-caiasoft
@@ -45,7 +45,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-caiasoft deployment
     digest: 05893d6889eccdf240b1269159839472706f7e674bdabbeca5ae83d0d4760038
     name: edge-caiasoft
@@ -60,7 +60,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-connexion deployment
     digest: d18ec67334bb9a0f53d873cb2254ac0ec248bae49f11dc6bf1c55999a2838686
     name: edge-connexion
@@ -74,7 +74,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-connexion deployment
     digest: c0f0314b28e494dfc3b25b9d03a22410f9b44ab92482f497806b16d8ed61d6ce
     name: edge-connexion
@@ -88,7 +88,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-connexion deployment
     digest: 4ba6b838bbdbc270a567611f6e2e7b2500bd2d42c9392221d30f140312177724
     name: edge-connexion
@@ -103,7 +103,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-courses deployment
     digest: 27cd66621f05d6815aa7bc23475a7cff4b7e61bcb06e847678f6f2836d5013a6
     name: edge-courses
@@ -117,7 +117,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-courses deployment
     digest: 5d283368dafc18a023fafd04306310efe3f5c2a275795bac0d9fb640f0b48b8d
     name: edge-courses
@@ -131,7 +131,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-courses deployment
     digest: bb42a4e99a2576a768e78b3a156157f7a412ba89e7900e947e02645a0b94cc9f
     name: edge-courses
@@ -146,7 +146,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 66cdf6d646cdfe56af3adf1872f1f9abb95efd84a41c1960ebf7b626aaaac6d3
     name: edge-dcb
@@ -160,7 +160,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 758ec6699aa2ad8dfdc07e3eda7d0912f39842f29367641bae73e4dae13d56c5
     name: edge-dcb
@@ -174,7 +174,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: f5cd0c673b02312aa1c00441430ca9468c38508d1d142e65826ccebc45f5103d
     name: edge-dcb
@@ -189,7 +189,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-dematic deployment
     digest: eaab1cfc9546dc561225239444df2e2d23aada7ba9fec497eba7830cf3d13eef
     name: edge-dematic
@@ -203,7 +203,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-dematic deployment
     digest: 76ceb04d75eeb39a9cd0f2430b4bc7d4d9ac2b1410c6326ecab818b167e07b62
     name: edge-dematic
@@ -217,7 +217,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-dematic deployment
     digest: 32aa38b87955f076640d2d35d59165c4c080173f733f1cb3bea5d503947c41ce
     name: edge-dematic
@@ -232,7 +232,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-erm deployment
     digest: e4265b43c5b95b565592210b74bfa25f8aa44428917bb29cbd93ddb84bb9f5ff
     name: edge-erm
@@ -246,7 +246,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-erm deployment
     digest: 8c3fec3a1358502668c49ce4a94c957a119bc9d9b70aaa776e1539ee2322d4f7
     name: edge-erm
@@ -260,7 +260,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-erm deployment
     digest: 04564a371af117a0f32c352d24e923ae155c323998bae560ed78dd78ed5f5d7c
     name: edge-erm
@@ -275,7 +275,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-fqm deployment
     digest: 7737877faeaadd20e8e8120a850d240d6063589503acaa662e9bd47c44ad9fc7
     name: edge-fqm
@@ -289,7 +289,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-fqm deployment
     digest: 9a63a60529c6a4d1937ae5b97d9739df41454ef1930a3aca159de5a1e80dcba2
     name: edge-fqm
@@ -303,7 +303,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-fqm deployment
     digest: b86374d316f8cd76ee949516a85b7ae458bf7eeb2321cbc8745c35a3ee3c8a2d
     name: edge-fqm
@@ -318,7 +318,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inn-reach deployment
     digest: 133936c254701e8d9c6c3ebe6fa351323159e9ef86d55972760863e6b223c5a5
     name: edge-inn-reach
@@ -332,7 +332,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inn-reach deployment
     digest: 491ab345d225554e2952567259fce5a0c7425858c307b2a2a33b51501d91735d
     name: edge-inn-reach
@@ -346,7 +346,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inn-reach deployment
     digest: cf88da39eb463338ac075dba94b31c86b460691a020ad05b95691c0d2d7e9177
     name: edge-inn-reach
@@ -361,7 +361,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inventory deployment
     digest: b83d580951a962cadaf6aa6b0a7cf17ec24d0a1a7bb4bf620084218752aa907c
     name: edge-inventory
@@ -375,7 +375,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inventory deployment
     digest: a64ec6dc4c638c23b7c1e53f2b705bea320576fb679b56c6aeed4dd14c313a2b
     name: edge-inventory
@@ -389,7 +389,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-inventory deployment
     digest: 4a4087d98027dceb448d0724525313fcb3c7552f4ae8db5a3d1dd04fae6060c0
     name: edge-inventory
@@ -404,7 +404,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-ncip deployment
     digest: 660e65cdc1d0aef15b9f966c6de11bfd543118791e2cca67032a8de1672f4aab
     name: edge-ncip
@@ -418,7 +418,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-ncip deployment
     digest: 8cc86f953e2f5b634d0338eaeb30a6f3fdea7a5818d2c9cb3ad65575aad3b545
     name: edge-ncip
@@ -432,7 +432,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-ncip deployment
     digest: a9d956287761d43d6ae22f22bfc1b31610a29f25b9f7408f240ad188e69019f4
     name: edge-ncip
@@ -446,7 +446,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-ncip deployment
     digest: 12d4dde7340ffde4c782b0063d5dbd999ab12f47ace99e77c95c9fbdbbca5cc9
     name: edge-ncip
@@ -461,7 +461,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-oai-pmh deployment
     digest: 7d25fe598015a0bf5a39d7333a43417a8acf7763d8690b95427c4b97ff96b5d5
     name: edge-oai-pmh
@@ -475,7 +475,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-oai-pmh deployment
     digest: c05fb54e65e44aec2b3feb3f4eaa6188e52e72564e9681feacf3c1892300b005
     name: edge-oai-pmh
@@ -489,7 +489,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-oai-pmh deployment
     digest: cfdc772a10ab9757bf0e930b28d45eb090f44435f8051675edfef902f68abfcc
     name: edge-oai-pmh
@@ -504,7 +504,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-orders deployment
     digest: c759002fbde7debcef4baa7910f1c2a7e5a6f78a99b0eb9adf4088d971e6724c
     name: edge-orders
@@ -518,7 +518,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-orders deployment
     digest: eeafb4b14f27de3f4db95fc4d13eb501d8c44bf90c708a91f51e0250e387c232
     name: edge-orders
@@ -532,7 +532,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-orders deployment
     digest: 906a991f7dc78b3eb318fcb95d2d84e7418dbf856b1715b66be45983f51b7905
     name: edge-orders
@@ -547,7 +547,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-patron deployment
     digest: 2df6323a4924588f100a8754334c255db6000f2659526a72b07b7b4280d2d231
     name: edge-patron
@@ -561,7 +561,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-patron deployment
     digest: 887c2ca59bbbf1eeb0409026d5da45d706d488ebc39edbeec76bb767295fd4f8
     name: edge-patron
@@ -575,7 +575,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-patron deployment
     digest: 0543ee166b2e5cad73d01e6919bb501397ec66abfcc33b8f3e27883810ea8702
     name: edge-patron
@@ -590,7 +590,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-rtac deployment
     digest: e9d61d06825a9b292a373a0f6dd1a57313898037e586d72776411934529a340f
     name: edge-rtac
@@ -604,7 +604,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-rtac deployment
     digest: a7fe39f67c51756ee61967174a5f7a4c86a4887437edf6996d23422e33d302e7
     name: edge-rtac
@@ -618,7 +618,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-rtac deployment
     digest: d876550575a8938bf0f6f392e26032a562ae6d2a2dba5d7eeb50781e36d27132
     name: edge-rtac
@@ -676,7 +676,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-sip2 deployment
     digest: 087dfc36c6d923ac68fa57e94f8c4d1eac0be7adee51352ba663c0cb34d04ecc
     name: edge-sip2
@@ -690,7 +690,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-sip2 deployment
     digest: cff554e9ff750b9461ec6dc78dc73ba51b7c1d62d40908afc415d7bbf7c4ceb4
     name: edge-sip2
@@ -704,7 +704,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-sip2 deployment
     digest: 61467f9fe0ceb78eef3270e7f7c5007bd8a7990b38a994f4a4df4ed2898d5ddb
     name: edge-sip2
@@ -719,7 +719,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-users deployment
     digest: c8e28383794d95d25e25a78f188d3e0a950adf8600fd104ca10b88cd6d6c96bd
     name: edge-users
@@ -733,7 +733,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-users deployment
     digest: 3bbbbc09380d30fdeeb80556d24da4f50dc87b802a60a6f2277ded7f15d64920
     name: edge-users
@@ -747,7 +747,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes edge-users deployment
     digest: ae35f7c07c86da737fc2f81f30bb409669310eb7ee8db014404ea7f4b4bcbce3
     name: edge-users
@@ -859,7 +859,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for deploying LDP https://github.com/library-data-platform/ldp/tree/main
     digest: 274860ecd60e2295cc95fa71d057f995876b5c25b1caf19170c59b2eb7d1512c
     name: ldp
@@ -873,7 +873,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for deploying LDP https://github.com/library-data-platform/ldp/tree/main
     digest: 7fd72fd7ce59aab3644f704106e97a5dda89c5d2697d7309fa47e0246b6e4532
     name: ldp
@@ -888,7 +888,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 67620e29a2cb3444e512487968493ecdd761ffab157e8d40d4f85341c8fd03ff
     name: mgr-applications
@@ -902,7 +902,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 52c0e96929ecd650573a78c9f3c4491a23f4372e27930643a32aed942caa5de5
     name: mgr-applications
@@ -916,7 +916,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: ff46340556ab6911b3533dd9c6db31432cbadb4e511f13df2c51a8e0ecf9b8ff
     name: mgr-applications
@@ -931,7 +931,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 9a90eabcecffe48bf541993d06aa60ca937d670b965cadfc5ec6ef994e5260e1
     name: mgr-tenant-entitlements
@@ -945,7 +945,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: cfe0f724c55b3450f0e07393de6263c95080b8a98229bb2da0950df1b778f97d
     name: mgr-tenant-entitlements
@@ -959,7 +959,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: c73c99563517509de2525781da7f56be4622c86a823dc65dec822de641a816d9
     name: mgr-tenant-entitlements
@@ -974,7 +974,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: a7a6746430330dddfe6f7c4f6614c0f8c489bb04032311fa8fc5fa54ae4e07bf
     name: mgr-tenants
@@ -988,7 +988,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: e99d24b6f11344e15e5968a778392894051f00f3b96c1e1d07679082279bba56
     name: mgr-tenants
@@ -1002,7 +1002,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 85ec1d0676fc100ad9d0eb9e91f090830fbb4010bb74e94792aa078aeb5bfe6e
     name: mgr-tenants
@@ -1017,7 +1017,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-aes deployment
     digest: 3c71403eed393898fdca2912f82dc057b5e1722101eeb7b89450a290e74d5b30
     name: mod-aes
@@ -1031,7 +1031,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-aes deployment
     digest: 7a24a154ffbc1940108fd2342921b50754d3a0dc5ddf84a52708ca44f3002442
     name: mod-aes
@@ -1045,7 +1045,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-aes deployment
     digest: 9ec1b7543d60668b9d56c0a4947fb828f7270ce6a04a8737e42c15caa9858413
     name: mod-aes
@@ -1060,7 +1060,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-agreements deployment
     digest: f31bb7f442290fd51240679408d5c14cc2f575a188da243c37bf5eec77ef57bd
     name: mod-agreements
@@ -1074,7 +1074,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-agreements deployment
     digest: eba26f93961dd4b25412ccda7b5e0a4490fd56b45c3c0b34ec84ccbba1af3c39
     name: mod-agreements
@@ -1088,7 +1088,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-agreements deployment
     digest: c2ed0bb6f76fe53c545032502032c03cbe74c0c5059379f4c7739920c0ced411
     name: mod-agreements
@@ -1103,7 +1103,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-audit deployment
     digest: 4ab53ead779745193a2290a4e09f39a2e453c0625994454ca2f19b2199fb8b65
     name: mod-audit
@@ -1117,7 +1117,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-audit deployment
     digest: 5f3021cbebe257879037a9380795e3b6a46e498de8114091c733c54bd3a2ea5e
     name: mod-audit
@@ -1131,7 +1131,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-audit deployment
     digest: 3a361a28544f3fdcb95ace2bea392d05fc31fc33770d0e7d3ecf8a9b62e7c9cb
     name: mod-audit
@@ -1146,7 +1146,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-authtoken deployment
     digest: 6cfa1a24a03c26cacdd1cb6897b15331c56e9f4affec24a4129bc09e870173d9
     name: mod-authtoken
@@ -1160,7 +1160,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-authtoken deployment
     digest: 9c5f538f3129cb04894039a10800156aaaf0c6a01a7bd815d8cc815bf73a64cd
     name: mod-authtoken
@@ -1174,7 +1174,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-authtoken deployment
     digest: bc0e910c1af6844af47fee6846087a8aa1a4584bb23ae5bb353d4fb0ba4a4a28
     name: mod-authtoken
@@ -1189,7 +1189,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-batch-print deployment
     digest: bb2a5066487ae0db6cdeb7864771078631327be215d77c7e1378807e599ffa30
     name: mod-batch-print
@@ -1203,7 +1203,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-batch-print deployment
     digest: 72c8042a5fff8c5e9130e82e94fb0b57713ad0f607d89e46442f98d104234343
     name: mod-batch-print
@@ -1217,7 +1217,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-batch-print deployment
     digest: dc104029ea3d27f80d644f36a5b7f385bdb87b806435e2fbea2a0ef31560e4fe
     name: mod-batch-print
@@ -1232,7 +1232,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-bulk-operations deployment
     digest: f53675ecbfabe7fadba3165260bcf57c0e442c18114e2dc9052fe46d7eaf7ec1
     name: mod-bulk-operations
@@ -1246,7 +1246,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-bulk-operations deployment
     digest: 21849ee8f440254cd82b19be2402ee457331ee7b6273b5871aa610607cde7b3c
     name: mod-bulk-operations
@@ -1260,7 +1260,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-bulk-operations deployment
     digest: 67c235a213f8fd7e2f9a9c287b39aada027a406a3b0e5e17cc0234f2ad8728cb
     name: mod-bulk-operations
@@ -1275,7 +1275,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-calendar deployment
     digest: 05dd8f0be5bdcbf0cc490aec5aadca5dff2258bf82d78ee6db150b1bac542d41
     name: mod-calendar
@@ -1289,7 +1289,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-calendar deployment
     digest: 62ab88bf298149523a1704065cac3a566eb43aa51f102c75918c3c206cac1e85
     name: mod-calendar
@@ -1303,7 +1303,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-calendar deployment
     digest: a7827c5d5a38707e0e37c7e50a4385c489614c41b77a0d3ffd801bbf4f237e6d
     name: mod-calendar
@@ -1318,7 +1318,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-camunda for Kubernetes
     digest: 9f9ff080265aae6c73cba98c33b282de05954bb4ea6e4753e9be26416b8fc6db
     name: mod-camunda
@@ -1332,7 +1332,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-camunda for Kubernetes
     digest: 6e875043ea87d7447797bb7d3ee0f44c0d4c6e43a7225a5d95acf066a2eb46bd
     name: mod-camunda
@@ -1346,7 +1346,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-camunda for Kubernetes
     digest: 58d1da833a5f486c63ed30d0a0ba2d21fa47017c4f8d4b459fa8d99ac3a767c7
     name: mod-camunda
@@ -1361,7 +1361,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation deployment
     digest: 64d10f50b646bfda1500719765e3903da653aa80e05ee90ad573ec6ed22a6eaa
     name: mod-circulation
@@ -1375,7 +1375,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation deployment
     digest: d4ace62a271141fc65a549549c5515258074443e478722ac5d7882bcf7dd61e5
     name: mod-circulation
@@ -1389,7 +1389,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation deployment
     digest: a73dabceac53797837d2ff91fc6c98b0bf6b5c7b2b993024171504006accab33
     name: mod-circulation
@@ -1404,7 +1404,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation-bff deployment
     digest: 39f2d535e266fbb6957d41a22f38cd3540efa64856f6996dc29f8031f54356ed
     name: mod-circulation-bff
@@ -1418,7 +1418,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation-bff deployment
     digest: ab0064db49dcbefe69bdfd059201b8a97499549f3c79b434a2b65c8ef6bbd9fd
     name: mod-circulation-bff
@@ -1432,7 +1432,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio for Kubernetes mod-circulation-bff deployment
     digest: 89514a08d33ac84058f1bed25871fb4532133349005f6977789262b353a7da48
     name: mod-circulation-bff
@@ -1447,7 +1447,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-circulation-item for Kubernetes
     digest: cd8e4d0667b9625431a283d92ac66bc5acb989243a38481419dd1935a11498c9
     name: mod-circulation-item
@@ -1461,7 +1461,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-circulation-item for Kubernetes
     digest: d74a4f6f3e3e2af2cfa460d31abb95dc6d7cff0ca99c4bc762c0ac197fd7277d
     name: mod-circulation-item
@@ -1475,7 +1475,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-circulation-item for Kubernetes
     digest: eb7a6f0ead29083ad3f0863e0f66c0b58fa928370ef4811d6df9eabd94e1c7b9
     name: mod-circulation-item
@@ -1490,7 +1490,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-circulation-storage deployment
     digest: 71ed0abc8a9eb908acd34f989aca2694d986cdd7248318b732951adf9f0f75d2
     name: mod-circulation-storage
@@ -1504,7 +1504,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-circulation-storage deployment
     digest: 2f19ca33c73f22efe477fc4d9ad4868cd437f3b9ed4fd89f10b8ee6cc8ee1131
     name: mod-circulation-storage
@@ -1518,7 +1518,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-circulation-storage deployment
     digest: 860dd0790461bcf4f875ac86c29d1f60b6ee12b352e115a9e364bc3c83778696
     name: mod-circulation-storage
@@ -1533,7 +1533,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-ekb deployment
     digest: f69337e5d67aaac2056c59663c71020a943492c10177826e3cb4b423f8b05497
     name: mod-codex-ekb
@@ -1547,7 +1547,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-ekb deployment
     digest: 9483f967de8bd91d3844f8681019e84505a1092020f335e3fb77144185edaf88
     name: mod-codex-ekb
@@ -1561,7 +1561,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-ekb deployment
     digest: 8856fb4086ab0bb5098193e48acc1da060bec23dbe6623ecbc2af75cb9d518eb
     name: mod-codex-ekb
@@ -1576,7 +1576,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-inventory deployment
     digest: 6943a8185e5dd70b48d02a6aac8755998ba4975903f103a94b1f6fd9c8597eb3
     name: mod-codex-inventory
@@ -1590,7 +1590,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-inventory deployment
     digest: 3bb3630d542042e2f92ee98fe4db1f6963c7fd99dc96808c7036b4aa6e1fe651
     name: mod-codex-inventory
@@ -1604,7 +1604,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-inventory deployment
     digest: 1231cb1fb9a31978fc0d4bded30242aa6ebc65959d197ecf99b7f0f6512824e2
     name: mod-codex-inventory
@@ -1619,7 +1619,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-mux deployment
     digest: cf2b61b1b52cc74a318d79fbc546a6ecb9d2f2424e6089c884d6f3b1263e0fd6
     name: mod-codex-mux
@@ -1633,7 +1633,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-mux deployment
     digest: 85e843054a4afecc00b72107ca3a683395f59e8fdd2693b4ed40f231a10c5d10
     name: mod-codex-mux
@@ -1647,7 +1647,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-codex-mux deployment
     digest: c2e7aacd83730c5e8772d5b31b1ecef99ad99485c8764d99fe20a2ec4c9b308e
     name: mod-codex-mux
@@ -1662,7 +1662,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-configuration deployment
     digest: cec89fcff8f63b809a54e09e742d02b9edce0d98b1aa8c90c8e08cd188a0324c
     name: mod-configuration
@@ -1676,7 +1676,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-configuration deployment
     digest: 5329c2af65d855ef14f76ad97f3f59dca586eeeeacf0667cd305060cff9b7dc6
     name: mod-configuration
@@ -1690,7 +1690,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-configuration deployment
     digest: 94c9bc676d2b086c76ba56c9b97775df4f95ded814d9f4e8b58508017d5e29fb
     name: mod-configuration
@@ -1705,7 +1705,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia deployment
     digest: 7d903f88811ad4532b1e4420baad4531820920f997ab9a9d89389016fe3d0bbe
     name: mod-consortia
@@ -1719,7 +1719,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia deployment
     digest: 48a9cedff1481f22eed16edfaf434bead545769067c547dcef515fb0ef75a353
     name: mod-consortia
@@ -1733,7 +1733,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia deployment
     digest: 615297d787b2563918718d301de17351e69179a798e08c9a1c4ba05d4cb20e94
     name: mod-consortia
@@ -1748,7 +1748,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia-keycloak deployment
     digest: 50221177bda7ab460f3b27411ab9849fea53cb7e27fce521df90d573af59c5ce
     name: mod-consortia-keycloak
@@ -1762,7 +1762,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia-keycloak deployment
     digest: 13d5ffcb54425e50d641de680f5e832b58fab580e96ae1131260272132e8b14c
     name: mod-consortia-keycloak
@@ -1776,7 +1776,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-consortia-keycloak deployment
     digest: ad914f8612e6b1e8ab283b2e5f3310bb33693569391a42086ccfc701f31b9044
     name: mod-consortia-keycloak
@@ -1791,7 +1791,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-copycat deployment
     digest: 5131e10394d2483d69ad33442ef67eca4d2b38c9bf9f5e186d9fbcd0831fcba8
     name: mod-copycat
@@ -1805,7 +1805,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-copycat deployment
     digest: 57ed39c31eecc9280f5c42c864713bdfa8e90f475c63d7191712d6f767c69bc6
     name: mod-copycat
@@ -1819,7 +1819,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-copycat deployment
     digest: 4f3eef1a9f5d8ddbf5678a4e3e2a1e73631a4287725d2e844e5883746379c67b
     name: mod-copycat
@@ -1834,7 +1834,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-courses deployment
     digest: 074f2538a637cbde9b26e771f76cf0d72145c84a10d69f19fc6ab5879e7cd9a5
     name: mod-courses
@@ -1848,7 +1848,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-courses deployment
     digest: d32f42d8220c589cf5ccfb7620c42f1a334e7c7beec80d45c5ec976e38e5cbdf
     name: mod-courses
@@ -1862,7 +1862,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-courses deployment
     digest: 4f0ac805bf58b1e328588a4e3a6b55df971a45f45db9c800b223a1fc715cbe88
     name: mod-courses
@@ -1877,7 +1877,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export deployment
     digest: 7a3441ce00b1afdceb31bcfe8cecbc000b15c03519bbddf4f0faffaba5b05004
     name: mod-data-export
@@ -1891,7 +1891,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export deployment
     digest: 473ffc5d2006a5aca1d2ddb6b2d9e8da214408caf9478f3440b83e29f5780257
     name: mod-data-export
@@ -1905,7 +1905,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export deployment
     digest: 84d0ebe9806873f73615ce7d1c52b8a1cfe718d756d95200dc4683be9af41f15
     name: mod-data-export
@@ -1920,7 +1920,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-spring deployment
     digest: 2c9325bcabacacba9182827e477c78942d9df4fb80cbac7ba9b7f189d600e7e3
     name: mod-data-export-spring
@@ -1934,7 +1934,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-spring deployment
     digest: eb7683b09df285a73b2a418545c65aef205d6b88615e559082f06f87c39d7e3d
     name: mod-data-export-spring
@@ -1948,7 +1948,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-spring deployment
     digest: be19bb286ef4cabe465c7f408c9dbbbc89c8ee598531112d49c732e32cd7f623
     name: mod-data-export-spring
@@ -1963,7 +1963,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-worker deployment
     digest: b4e96d8a4108d557889448be9bbd068ff49429c5514515647a94975af24d37f3
     name: mod-data-export-worker
@@ -1977,7 +1977,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-worker deployment
     digest: a68b9b909e26bdc7f68e82785acdad7f8420219daabf525dbeb24a6602e4031b
     name: mod-data-export-worker
@@ -1991,7 +1991,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-export-worker deployment
     digest: 533fbc2a6435c56183907fa37ded2a9382cbb97b95bb87489983b1e321cd0fb1
     name: mod-data-export-worker
@@ -2006,7 +2006,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-import deployment
     digest: 502fdf785103ab574b3d4e3c4f70b4115cc513c2506f4def5cd04862d61a88be
     name: mod-data-import
@@ -2020,7 +2020,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-import deployment
     digest: d6c33b2d3299e884b06e493dfbac6b0ae9ba6bea67aa4ace406aff311794aab6
     name: mod-data-import
@@ -2034,7 +2034,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-data-import deployment
     digest: cd47df2cec301b0e248b40361200d8190266da064ddd3d2d45d23d5914da3611
     name: mod-data-import
@@ -2049,7 +2049,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-dcb for Kubernetes
     digest: e90347327bdebee3769ac3f025fa3fb8df717f7817dfa3005c5d3790e568b74f
     name: mod-dcb
@@ -2063,7 +2063,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-dcb for Kubernetes
     digest: b69fcb7ee322883c66db8cc43cf4d7c1dcac1d7436d44b5788c831f805842e64
     name: mod-dcb
@@ -2077,7 +2077,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-dcb for Kubernetes
     digest: 07e8765037c11e6fdbd0e5af76daba51baa23cd2fbcf0f4aad67ee7e9501c0ab
     name: mod-dcb
@@ -2092,7 +2092,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-di-converter-storage deployment
     digest: 71440a614884deb8cb43750dd9999de9054d02fac1859f47853de3a3d277a38e
     name: mod-di-converter-storage
@@ -2106,7 +2106,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-di-converter-storage deployment
     digest: 76e506266a482f8412f4a1b17f6d79eff1c09303789168a9dbff71042c1431ee
     name: mod-di-converter-storage
@@ -2120,7 +2120,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-di-converter-storage deployment
     digest: 0f53009d906706e1f797fd0c72a4c7adfb5c429da28982df8ee9a4248a0d9fad
     name: mod-di-converter-storage
@@ -2135,7 +2135,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ebsconet deployment
     digest: 84282c10eca82d56e63284d6653672d3962be7f03c438c7050d8a6d1ce1cc972
     name: mod-ebsconet
@@ -2149,7 +2149,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ebsconet deployment
     digest: 93c05754ca74fe0310a8222674fdd799e34a7d2be6c4b0e2c364523ef1e7212f
     name: mod-ebsconet
@@ -2163,7 +2163,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ebsconet deployment
     digest: 8e844d9143aa8d039f158cbababd3187154883a0692d2f3f4d05cd29bb7e4984
     name: mod-ebsconet
@@ -2178,7 +2178,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-email deployment
     digest: a23bee78fee74c4f015f54ad3a25fdf0fe227c5ce17f2db8b430d31b13bd1ce6
     name: mod-email
@@ -2192,7 +2192,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-email deployment
     digest: 99acd945c7c6b9b40147d3749bfa8a6f5d80838e9b4c11120f051b16106a7275
     name: mod-email
@@ -2206,7 +2206,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-email deployment
     digest: 94de07ebaf8443842f24d611c545d4ab91c4267f9be4e44a07a0ad7a92918335
     name: mod-email
@@ -2221,7 +2221,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-entities-links deployment
     digest: cb093c42502ebe923eacf0ea28b10b5ef1043ad6f3a4a57ddac4c0b971e63061
     name: mod-entities-links
@@ -2235,7 +2235,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-entities-links deployment
     digest: e3d0152567105c9f1a74f7d4fc20a4e6679b385a91a2b74bf43536001ecff80f
     name: mod-entities-links
@@ -2249,7 +2249,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-entities-links deployment
     digest: 584d93eed02169b25817b5a34fa5fce6b81750444c4d643697fe49579ef12e1c
     name: mod-entities-links
@@ -2264,7 +2264,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage deployment
     digest: b32546b976a31d6817378be3b4e9545e4babb879d4d81d33a931495aebdfa521
     name: mod-erm-usage
@@ -2278,7 +2278,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage deployment
     digest: 2b418ea080bea52e774e1f74fdeadf393ad087b2e10cc7b7dc10a43912c3221c
     name: mod-erm-usage
@@ -2292,7 +2292,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage deployment
     digest: f616d953c98b5764ab6708e551bc12a7f13f04eb1e2ce6b152de4b2a526842ca
     name: mod-erm-usage
@@ -2307,7 +2307,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage-harvester deployment
     digest: 103a1e0d314fed49f4f8a20d123de8ddb62c8157c88633eded2bb4f864bff870
     name: mod-erm-usage-harvester
@@ -2321,7 +2321,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage-harvester deployment
     digest: 264264dee9d3259bcaf7b4fe55d3fb4a3f69f53584bc95ff1d4d90f141442903
     name: mod-erm-usage-harvester
@@ -2335,7 +2335,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-erm-usage-harvester deployment
     digest: df07ba54644e98e4ce016bb71eee28d95540fa8e0395ef425389f4116d84b81e
     name: mod-erm-usage-harvester
@@ -2350,7 +2350,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-eusage-reports deployment
     digest: 948a43042383b45dd7d58744eb0a6151cf446c0ff6c183850ecc903ae2db693a
     name: mod-eusage-reports
@@ -2364,7 +2364,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-eusage-reports deployment
     digest: 58c8aaed702b7df20f03908f601c674ec7bc8aa2440a475b9f5c862731ddd48d
     name: mod-eusage-reports
@@ -2378,7 +2378,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-eusage-reports deployment
     digest: 8ed12eac311b075caa06cd7bd797dfd88ac88620e281a4098d96f3f561d94e08
     name: mod-eusage-reports
@@ -2393,7 +2393,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-event-config deployment
     digest: 4a23dd40770238970faa5b78246d9e7e0e8d8103f22b0205e515d08827f9a2f2
     name: mod-event-config
@@ -2407,7 +2407,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-event-config deployment
     digest: cd6d5c435b27bc435052f8c54d8fd36b02c75fefd5f4b0e7028d48eeaf218d11
     name: mod-event-config
@@ -2421,7 +2421,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-event-config deployment
     digest: 100c233ff28b5c5709ee2700fb380e12211cd8d6363cd02ebad37f667aaefbe9
     name: mod-event-config
@@ -2436,7 +2436,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-feesfines deployment
     digest: d5ae973693edd5de9410cdb35e7f84335f1934103ab9a4d9b6f8e45e147acc0e
     name: mod-feesfines
@@ -2450,7 +2450,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-feesfines deployment
     digest: 4eda0c9bc1001e0271746a785c2c08bc34faf100501235a37e4e5eb5f7d3fa97
     name: mod-feesfines
@@ -2464,7 +2464,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-feesfines deployment
     digest: 8976bfae9718ee8c88d4098e3f13389f9e15be3e90988519a3b11661b35c0e24
     name: mod-feesfines
@@ -2479,7 +2479,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance deployment
     digest: f507f77383cbbebd63fd6249db83999fa7f08b8a060fab16a795b10c2060525c
     name: mod-finance
@@ -2493,7 +2493,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance deployment
     digest: 94f3fa11e02c8550b9eda9216e5498951d90a7d29d7192b3b8df77533d32c0f0
     name: mod-finance
@@ -2507,7 +2507,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance deployment
     digest: a93c3e88e314892e4c1f9142972710910541f76d4e5f34769276719bff7dfb03
     name: mod-finance
@@ -2522,7 +2522,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance-storage deployment
     digest: 021d974fbfe5a009cd2c325e94c80150d75c9dfa860fa9fb4fc41bc8a0187692
     name: mod-finance-storage
@@ -2536,7 +2536,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance-storage deployment
     digest: f77d810d7b46d1f41089c6a5cf9149e0e4dfcc72bdc8ba37cd69e4d7e98dd8e2
     name: mod-finance-storage
@@ -2550,7 +2550,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finance-storage deployment
     digest: 7680619b0e6bc75a7928f7df9ebbe39623a4220914182d875523138d68ec434d
     name: mod-finance-storage
@@ -2565,7 +2565,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finc-config deployment
     digest: 372dd5ae715513ddbbc35875f6d6235c4a31f677716224fd4bc8e7ed638d5aeb
     name: mod-finc-config
@@ -2579,7 +2579,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finc-config deployment
     digest: b9763302fb6fbf954307f567eb54922248940977ae3c4098c5296cf34fab969c
     name: mod-finc-config
@@ -2593,7 +2593,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-finc-config deployment
     digest: 68f3048b022d28a4221d1eb76b7840dee586d22e82ed954b9501932f81b36f14
     name: mod-finc-config
@@ -2608,7 +2608,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-fqm-manager deployment
     digest: eac5c04ee7cc8570f504522025592d9d45df2893bfa6ad85ffed4ea48cbe05df
     name: mod-fqm-manager
@@ -2622,7 +2622,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-fqm-manager deployment
     digest: b0898ee7bd9661e8384dafa545af8201de4e297189e4f37cf0e459974f0cdb36
     name: mod-fqm-manager
@@ -2636,7 +2636,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-fqm-manager deployment
     digest: 76357c3a04a4c826b114b3dbe1a0424503a66df8fe019df9cded3701b0565ec4
     name: mod-fqm-manager
@@ -2651,7 +2651,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-gobi deployment
     digest: 9c6a263bfa5c8fb03e86085ca0a17bb4b6e87fcd04c6e267276a30b183407a9b
     name: mod-gobi
@@ -2665,7 +2665,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-gobi deployment
     digest: 4bb963d757a0799c9d2c176c98987f1a4557f5af9ae44e3e1fa7f1e8d5cf270e
     name: mod-gobi
@@ -2679,7 +2679,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-gobi deployment
     digest: 1e94ae97e1c0dbef5cd94158c773c545e834a809af242c78bedb85769279be93
     name: mod-gobi
@@ -2694,7 +2694,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-graphql deployment
     digest: fa818551d16a99882ba6c7fed7470cc6191fbe5bcccc5b1029f1e342f96de0ac
     name: mod-graphql
@@ -2708,7 +2708,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-graphql deployment
     digest: 34e62f0981c752c3a398ecc7a18b3fe52a02ea941c89d517dd7932b4d0b4cde0
     name: mod-graphql
@@ -2722,7 +2722,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-graphql deployment
     digest: 8dc9d93182efa957ef5c8947a075b16daacbf5714edc099f1522d84d629ec9cd
     name: mod-graphql
@@ -2737,7 +2737,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inn-reach deployment
     digest: 336a1d4d24099d4ba088d85f6b8d45ed12645078ce078c8f80c3883deae8c3c1
     name: mod-inn-reach
@@ -2751,7 +2751,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inn-reach deployment
     digest: 9a4e55afa65678a8d14a9aceb75ebec0f621615a9be3f8b72008631e5295692a
     name: mod-inn-reach
@@ -2765,7 +2765,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inn-reach deployment
     digest: 976c1e35f90cf731c182bd51d238c5ea1093ea90100c3b4fc7eccda464b45ed6
     name: mod-inn-reach
@@ -2780,7 +2780,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invertory deployment
     digest: e1b624fc4eab44d63bae2ef07352dc2f2e7d9f6764492fe6c42306ee0ba87e5a
     name: mod-inventory
@@ -2794,7 +2794,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invertory deployment
     digest: 779d85cfb1a0880c366bc145d655754590121337e5b5003336c98deb389d80e6
     name: mod-inventory
@@ -2808,7 +2808,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invertory deployment
     digest: c69af7f6b441cc5e6e0699a432f2514ccf43773163dcc541b5da8ba3fdd2ded4
     name: mod-inventory
@@ -2823,7 +2823,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-storage deployment
     digest: 4dc560d507f138b20b3909a87b88fdab3266b6418d8f82545ca8f45ec6dc56d6
     name: mod-inventory-storage
@@ -2837,7 +2837,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-storage deployment
     digest: 0d57773a0682d9a7697546448e4344dc0a6329f279351042c8084852267a0ac2
     name: mod-inventory-storage
@@ -2851,7 +2851,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-storage deployment
     digest: 28814f3983aebd9f7d982e1c9acb31b4ac5d9ee21d4d349f7d42bc0356bbb177
     name: mod-inventory-storage
@@ -2866,7 +2866,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-update deployment
     digest: 8db811550e462b3454cc0e4728b40208625aa0b7f33aee97186f79bf0876ff15
     name: mod-inventory-update
@@ -2880,7 +2880,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-update deployment
     digest: ecf57fc51523fb52dd49593058ad22a2ee3fc3cd52e2d500386d800195d3d32a
     name: mod-inventory-update
@@ -2894,7 +2894,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-inventory-update deployment
     digest: 94a6f4969b9ac771b4df2f7111a5a9cc961628c2ad33156934d8918da439b22f
     name: mod-inventory-update
@@ -2909,7 +2909,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice deployment
     digest: c965fce25dcb21bae9567b2a4ec868097bd38f4b8c3863e29ffc3a1c81862007
     name: mod-invoice
@@ -2923,7 +2923,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice deployment
     digest: 56d010cc39cbe15709a00a0a252d108f874f47a6628b011f00577b2491cb0144
     name: mod-invoice
@@ -2937,7 +2937,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice deployment
     digest: c3eaff1d6eb8afd5404d06d8976b1a2ff082442d88ddf18f286bcad684bed9e4
     name: mod-invoice
@@ -2952,7 +2952,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice-storage deployment
     digest: d035fff9d129e73699e205f40aae852e0d040daf6bdc073a73db17e2aa6697df
     name: mod-invoice-storage
@@ -2966,7 +2966,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice-storage deployment
     digest: 7f016027e0313cfb5bbeea6a2c8498b60b909018a77ec552af3654aa369c3f9e
     name: mod-invoice-storage
@@ -2980,7 +2980,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-invoice-storage deployment
     digest: 5ef60433e9d7f846f3110995282ab558e8a9dc7864c0ae9ecc8b8c836847617e
     name: mod-invoice-storage
@@ -2995,7 +2995,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-kb-ebsco-java deployment
     digest: b0338438bfc0a8aff026d5872ca288c4c4dfd84150ed3adc91aacae34e42581c
     name: mod-kb-ebsco-java
@@ -3009,7 +3009,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-kb-ebsco-java deployment
     digest: b94eddc399dbb09177e37f7389355f9d79db112e9d021c4f0c5f092d7869c2a0
     name: mod-kb-ebsco-java
@@ -3023,7 +3023,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-kb-ebsco-java deployment
     digest: 98d595701486cb39528169718741dc22d767174ec8690ba1febc8c0464cc2842
     name: mod-kb-ebsco-java
@@ -3038,7 +3038,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ldp deployment
     digest: 0c3a8a8c093e5eb12c5ce50385c535ba340e95ed94e74fe05dcad63812690c74
     name: mod-ldp
@@ -3052,7 +3052,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ldp deployment
     digest: 21cba9a7479062383d3fb6d35d8b2ba895b43b575b07665e00b3daed87bcac1b
     name: mod-ldp
@@ -3066,7 +3066,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ldp deployment
     digest: 7bf8dc441a72f78218b023e8b8eeefaed41d84bc7a3b9d5077854f9764f2270d
     name: mod-ldp
@@ -3081,7 +3081,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-licenses deployment
     digest: 3617c2e0106d404450646ac7eee74c6286ad8c231a1946a153562b7435c01983
     name: mod-licenses
@@ -3095,7 +3095,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-licenses deployment
     digest: a0296cade32f08101a6c7a1784cb209edbde99b091fa48c88dc4fe0c1deceda9
     name: mod-licenses
@@ -3109,7 +3109,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-licenses deployment
     digest: d2c914f2488074dcbb6baa431cbe7955e296f2a1142e95811b3e7b0f1ca0759d
     name: mod-licenses
@@ -3124,7 +3124,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data deployment
     digest: 3bcd0fc8ed8f6d4da2e0e7c69ebc857023c6ee7299c6d24afc41565602ef13a0
     name: mod-linked-data
@@ -3138,7 +3138,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data deployment
     digest: 3f0f83e625487b25029d130f7dcdd67e74a0b36db332237aa2fffa75ca8e449d
     name: mod-linked-data
@@ -3152,7 +3152,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data deployment
     digest: 68e2d7269657218e9d7c4c6ca2d25202e1d3b18725df3d2f9ffd5386be86e5c0
     name: mod-linked-data
@@ -3167,7 +3167,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data-import deployment
     digest: 999c514fb54054fbb710c09198d9b16f12228662178bbb91e7d93e039f9d94d2
     name: mod-linked-data-import
@@ -3181,7 +3181,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data-import deployment
     digest: 21040e46471a4568be9628ddd8cafe3cf463b680bc513d13932ab51b0d5f94fd
     name: mod-linked-data-import
@@ -3195,7 +3195,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-linked-data-import deployment
     digest: 643b3c8166caa2cd0a4ceb49d9cb1b0f2f3dcf6dd6dfff508be65d77260f03df
     name: mod-linked-data-import
@@ -3210,7 +3210,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-lists deployment
     digest: 4fc7075e7256f25b2aee179560b8dbfed84395c0de549209f4f77d81c415cb35
     name: mod-lists
@@ -3224,7 +3224,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-lists deployment
     digest: fcde5a3c634defe2c447e26ebda84e71b4feea309cd75a32f09b4848b9d2c764
     name: mod-lists
@@ -3238,7 +3238,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-lists deployment
     digest: 1937e5acb13541274dbbcc737c732e024b8cbee663dffb22763c89078ed8046d
     name: mod-lists
@@ -3253,7 +3253,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-locations deployment
     digest: 416bad5691309b1c7f99f4ba92dc131709f299a804b1e5650047df30127350d1
     name: mod-locations
@@ -3268,7 +3268,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login deployment
     digest: 40729f987f964aef6ca23c21ddac8533388237b91c8facb2ed8a94cdf48ee26a
     name: mod-login
@@ -3282,7 +3282,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login deployment
     digest: f4727ab6e050a9bf99e3190ee9d10d0cbe7c081ee07fc598cd89951899ed1bd7
     name: mod-login
@@ -3296,7 +3296,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login deployment
     digest: 70336ea67039433ace56bf904016ae6dd6cd9930c8901cf18d772210fe7fe68e
     name: mod-login
@@ -3311,7 +3311,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-keycloak deployment
     digest: 5cd9a037d7d76d803989a00c2a4ef34fbfe5a2e7b27559ce3c8beed19b66ddca
     name: mod-login-keycloak
@@ -3325,7 +3325,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-keycloak deployment
     digest: 5ac30af80140baa6fa43c22372ad5884edea8394a5852f34e7f3b0a502619a88
     name: mod-login-keycloak
@@ -3339,7 +3339,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-keycloak deployment
     digest: 23f13baa9273d365d52879fb0fb51d09d346cf73fae1e5ed70d092648b4ea877
     name: mod-login-keycloak
@@ -3354,7 +3354,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-saml deployment
     digest: 6517802079adca404ab3619cfc4c06451b2759aec0ce08d5e5b538ef9294c916
     name: mod-login-saml
@@ -3368,7 +3368,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-saml deployment
     digest: 0f5aca6d072e654bddb20631a8107c556cbdee91445c39613f1d367a16dd899c
     name: mod-login-saml
@@ -3382,7 +3382,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-login-saml deployment
     digest: bdb22db1faa33ff27acde900df72e698b58ee8c3b06a4873c4ad588ab572ab3a
     name: mod-login-saml
@@ -3397,7 +3397,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marc-migrations deployment
     digest: 98444c738eb5472a24326e1adc64ba37a6de3e8b910632927dc28928df8df08a
     name: mod-marc-migrations
@@ -3411,7 +3411,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marc-migrations deployment
     digest: 28e55e7895299bdec4487103c8cfd12875202d2cc012aac64015669cc2eb406a
     name: mod-marc-migrations
@@ -3425,7 +3425,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marc-migrations deployment
     digest: 8829530e1971250d76de0dd73672fae7a0a114377b5f9cbaaa445fdad40c6223
     name: mod-marc-migrations
@@ -3440,7 +3440,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marccat deployment
     digest: e2e814b87267b333499bae44cf5b10fb97a2330337dd34aa971ae7abf1a2a4ba
     name: mod-marccat
@@ -3454,7 +3454,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marccat deployment
     digest: 78b61622e3b482b03961423499ee72b22d8e9e3e109e9504cec80bf46ac17e7c
     name: mod-marccat
@@ -3468,7 +3468,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-marccat deployment
     digest: 00ced71804d896d3dd3474f74cd72e3e7f11e171dde6e8aab4a785392ee63434
     name: mod-marccat
@@ -3483,7 +3483,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-mosaic deployment
     digest: 3c5436854d78b75bbcc75ec2ccf80ad0a9da656ae250785d8b0242b03d4caa94
     name: mod-mosaic
@@ -3497,7 +3497,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-mosaic deployment
     digest: 345c61a99b4da9af9d7156ae9b4bf52036048aaf3fb3b4937e122229440c4ae7
     name: mod-mosaic
@@ -3511,7 +3511,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-mosaic deployment
     digest: 4459ffacd537ffaf539c8cdb1692fcd5823b6ebe8233965530dfaf137e9efe49
     name: mod-mosaic
@@ -3526,7 +3526,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ncip deployment
     digest: 996fed8d9b4a6a575638af441ed726a887ba7e547363c5d5a6c9193093520623
     name: mod-ncip
@@ -3540,7 +3540,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ncip deployment
     digest: 0e37ca2cdaaf3e7b5d21434afd100db30a77daf5a1448f6d1907912cd0973397
     name: mod-ncip
@@ -3554,7 +3554,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-ncip deployment
     digest: f95d9fc5e20031709a401076d4a92c5f100830ee50b34066987e5bdaa87a6d50
     name: mod-ncip
@@ -3569,7 +3569,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notes deployment
     digest: 5a8a06b9bdb3a9a286345b379cdffe11759f06fdbfd3eed3380de7a6f03150a6
     name: mod-notes
@@ -3583,7 +3583,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notes deployment
     digest: 3deec73dbbe36c466bbd9d1f7debbdcfb32e5502f718fd46e1cb9d3934b058b1
     name: mod-notes
@@ -3597,7 +3597,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notes deployment
     digest: 9c02d57b1d0c513c899912b025b8e43102e90e307c0f6918f315b7047c58c860
     name: mod-notes
@@ -3612,7 +3612,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notify deployment
     digest: 55ba0b99841da8bc78deda365778c0d0d99fa795c1dd430f50e98fb22ce6bc35
     name: mod-notify
@@ -3626,7 +3626,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notify deployment
     digest: 9f1c76be7c44110282fa15b86a9b4e4570a499ec06c2986e980f0d10e9d8e9c8
     name: mod-notify
@@ -3640,7 +3640,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-notify deployment
     digest: af2d75c215bebb363078393205ea588ac6de50713a7a890b3ccc9a86f73b375e
     name: mod-notify
@@ -3655,7 +3655,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oa deployment
     digest: 8d1eeef7b9519324dfd1f520ad5c22f2ab648a3407196ca422d555bee5ff7adf
     name: mod-oa
@@ -3669,7 +3669,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oa deployment
     digest: 969079d5bce363814a8986b873e4e7ca380937794226ff3232a1e017a3fe466f
     name: mod-oa
@@ -3683,7 +3683,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oa deployment
     digest: 442412e7aa4d0c5e3c51cac989940a9902373e96af2e962fad718ff3008bcee9
     name: mod-oa
@@ -3698,7 +3698,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oai-pmh deployment
     digest: 1a5282c2dc707796d39ffe0750edb46582d6879f884f12e55004fd83bbecb841
     name: mod-oai-pmh
@@ -3712,7 +3712,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oai-pmh deployment
     digest: 12c8b1e858ea8d3713ef0d73e84e6573a63d0a73487ad4e85c735eee5fb0397c
     name: mod-oai-pmh
@@ -3726,7 +3726,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-oai-pmh deployment
     digest: c8166ddf5bd8cf4c4ae9ab69d30e82d61f1373c31134b3fb2bf8bca4e39f728e
     name: mod-oai-pmh
@@ -3741,7 +3741,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-okapi-facade deployment
     digest: 75b5d012dbb99db4433c3dbbaf16f7c4340dfbcfe54c76fa6062e69afbbb76ba
     name: mod-okapi-facade
@@ -3755,7 +3755,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-okapi-facade deployment
     digest: df0d600f21f2d03d686654123fa1bb70b492bdb696df8f2128993b529ce79bd0
     name: mod-okapi-facade
@@ -3769,7 +3769,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-okapi-facade deployment
     digest: 64ac77c64640b51f6bc835d382c796bb0348ffb26b8f8a0369b0625d6fb3c0ae
     name: mod-okapi-facade
@@ -3784,7 +3784,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders deployment
     digest: 6ebd8edc1f449ff9b2e4459fd7c8939d49069d9d428c35d725c95de06889172b
     name: mod-orders
@@ -3798,7 +3798,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders deployment
     digest: f8033ad6c032a01cb8c398714efc17e09ff464b5306eb0e6ef367350848a64da
     name: mod-orders
@@ -3812,7 +3812,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders deployment
     digest: d3ab31eb5579cd3563549caeb57f770e42e3fe29975df1cf3df77adc0499423c
     name: mod-orders
@@ -3827,7 +3827,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders-storage deployment
     digest: 41dab38f5a56556a2501e43dc5fe77a8768fee8e2d97a32b8a5767f1ed68e1f4
     name: mod-orders-storage
@@ -3841,7 +3841,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders-storage deployment
     digest: 5f6d685074d40112ce3e411a154e6469f20c2e00934879c12d7ff34cd7c3e1e0
     name: mod-orders-storage
@@ -3855,7 +3855,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-orders-storage deployment
     digest: e8d80fc517780095e291db036dcfa5003b0efd5f525920835468c5d3dd37ef92
     name: mod-orders-storage
@@ -3870,7 +3870,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations deployment
     digest: 7f262d36c92e2ec92d025b2ee0ee684eb4ed1ae6025e929b3c186f52a5517b60
     name: mod-organizations
@@ -3884,7 +3884,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations deployment
     digest: d8bf8de8f1e9c3f0e14af0c91e3b576b0af041f976b0c3c817cd0688ddff3fe5
     name: mod-organizations
@@ -3898,7 +3898,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations deployment
     digest: 8e58152c27e4eae499a703ae7749f586061001b349e82377c55c881a2ab970a8
     name: mod-organizations
@@ -3913,7 +3913,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations-storage deployment
     digest: 8a5b2bd6e924e678bf8944d399c45f3982559e1742d89842237f4334f7575468
     name: mod-organizations-storage
@@ -3927,7 +3927,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations-storage deployment
     digest: 3ff3e6e8fd42ac31be3efd84b8a53e4207ac3c6f55e03f64527c3677c4b72703
     name: mod-organizations-storage
@@ -3941,7 +3941,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-organizations-storage deployment
     digest: 6f52319ca76a9cde13196a6c2de3189c596e09c9fa52195a72733c0acf1f84af
     name: mod-organizations-storage
@@ -3956,7 +3956,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-password-validator deployment
     digest: 38669840e3f2bfc5cc7d1a5f07a00f8ba44220ffef53e8916c2d2cedb078abbb
     name: mod-password-validator
@@ -3970,7 +3970,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-password-validator deployment
     digest: 6926001fe9359ef7faeeb1c5b353cbcf6f0edaedc7a554133d23a21046d1fdd9
     name: mod-password-validator
@@ -3984,7 +3984,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-password-validator deployment
     digest: 672f75ad6f963435e235fb7979627885dc347f32ee4b6fe88beb0e81c577bf42
     name: mod-password-validator
@@ -3999,7 +3999,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron deployment
     digest: a86fb68191bec35af6a3dd2935cb42daa9c19572508002119269cf9db6fedcfb
     name: mod-patron
@@ -4013,7 +4013,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron deployment
     digest: eb67474bbf8a018a45febe8007a59a53fadec18cc84d7cb5d328269362064a7d
     name: mod-patron
@@ -4027,7 +4027,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron deployment
     digest: c9d20ccb32abdd9337057106adbb285c08ff92b1062d83a4223fa59d542da2ac
     name: mod-patron
@@ -4042,7 +4042,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron-blocks deployment
     digest: 9afef74bf5b8cc7597e3aa01a455a15e08e5cff92f8c1fd0fb430be9fa18b3ba
     name: mod-patron-blocks
@@ -4056,7 +4056,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron-blocks deployment
     digest: 87ce16146deeca9c1b1f74852f2b4a8727d75a85c8af9a1ccba8b6aed43ae928
     name: mod-patron-blocks
@@ -4070,7 +4070,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-patron-blocks deployment
     digest: a154efaa76ccafe77c07df31ed53830a2adf8081f82b355b36a8d944e0fc791c
     name: mod-patron-blocks
@@ -4085,7 +4085,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart mod-permissions for Kubernetes mod-permissions deployment
     digest: 91acd159cfe5b72cd41152b60cf8a2ef275a3366fa48ef64b1a3ad5ac24aed54
     name: mod-permissions
@@ -4099,7 +4099,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart mod-permissions for Kubernetes mod-permissions deployment
     digest: 016175adbf817c62b81d5a44ed7a9213a07d7efb59182f97cf2b4d1be46fc620
     name: mod-permissions
@@ -4113,7 +4113,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart mod-permissions for Kubernetes mod-permissions deployment
     digest: 2716a1f734ea05f3cf54b57954e4481b81a7a9df55dc8b5fab0acdf0edd0cbf6
     name: mod-permissions
@@ -4128,7 +4128,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-pubsub deployment
     digest: 4dcaae37762d618256293a214abf7e7f5e09f564ce0aec1ceed91cb667373869
     name: mod-pubsub
@@ -4142,7 +4142,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-pubsub deployment
     digest: 11122ee571e12707cb6e82f930220c5d8dea04e6050d739c1793b3fea137a717
     name: mod-pubsub
@@ -4156,7 +4156,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-pubsub deployment
     digest: 7b0f705031dd41e2fa7ce350b5b708f8624173ae54ec443b30fde728a0fc6e45
     name: mod-pubsub
@@ -4171,7 +4171,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-quick-marc deployment
     digest: 7dfa6902c5ec0f8959bbf48838cc5449a827dd753076127ab555ca02607b14e9
     name: mod-quick-marc
@@ -4185,7 +4185,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-quick-marc deployment
     digest: fc5ee6d991d2c747be41cb8b1fe2c3c46767939b8bd60c82164ea5bb405d9366
     name: mod-quick-marc
@@ -4199,7 +4199,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-quick-marc deployment
     digest: a48db854aabe48a3ba4941b35fca1c8668be225dcd8061509145570ab7813172
     name: mod-quick-marc
@@ -4214,7 +4214,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: 811f0d3985fc997b666ed72875ab145fd5e856329d23fe2ddd8822109566339d
     name: mod-reading-room
@@ -4228,7 +4228,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: 7fd4e7876accf4528f95858216609ad27ce86ce1e81bd4c533b8126ac4a7be6c
     name: mod-reading-room
@@ -4242,7 +4242,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: 50ec4d64a74ab433eed028ed4cad5f138fa2d0fae2cf1faca3e9f8776ff3cca4
     name: mod-reading-room
@@ -4257,7 +4257,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-record-specifications deployment
     digest: 154c1b8cb60ac812d0daecdfa9a26e57ebb4b41559ba2189b8ccbcab053ed41a
     name: mod-record-specifications
@@ -4271,7 +4271,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-record-specifications deployment
     digest: 3df6dbecdb24fa6cebcbdfec2bca4fc4e05e0a3133cf99944e278d2662b63150
     name: mod-record-specifications
@@ -4285,7 +4285,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-record-specifications deployment
     digest: 24e5a96c729bdd67e9cd238eb171a075aa2d05aa86a312a017fb2fb6bd6b4bca
     name: mod-record-specifications
@@ -4300,7 +4300,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: 84de20140837169ca8d7f3c0c2d43cfb91f5e2e0800d092273cba7f2260a2efe
     name: mod-remote-storage
@@ -4314,7 +4314,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: baf2b9c78c479af0d496630022bee06403db56fc254166bf2a4b2f99af758f3a
     name: mod-remote-storage
@@ -4328,7 +4328,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-remote-storage deployment
     digest: a7464c385330c4488836a26d8b3d3d2d6a320fb92b3e38d561355684b8e9a7ba
     name: mod-remote-storage
@@ -4343,7 +4343,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: f4db1789e48153208049718ba053ab0c746e474ea7564cb106a2d58bd4cae28c
     name: mod-reporting
@@ -4357,7 +4357,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 62c65aca97a90b354c41770f6450124803bebf68f76927816273d4809924dc94
     name: mod-reporting
@@ -4371,7 +4371,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes
     digest: 1adde91e9ced5bfea6c22f4701f8db0d716332a265be8bd6021760bd8ab44589
     name: mod-reporting
@@ -4386,7 +4386,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-requests-mediated deployment
     digest: 0001946a0e611aae6447c6b40264ff8e77ae575e9ea97238b8a3c31fa8a371d9
     name: mod-requests-mediated
@@ -4400,7 +4400,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-requests-mediated deployment
     digest: 3cd46d751f8ba7dbe27ccb87727abfc021d74a77ef2e0550eeb34a032b0d9044
     name: mod-requests-mediated
@@ -4414,7 +4414,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-requests-mediated deployment
     digest: 36442f38deb6b00a0279722eb6ed583ecd00dae9292677a65d5bd5a4cc9149fb
     name: mod-requests-mediated
@@ -4429,7 +4429,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-roles-keycloak deployment
     digest: f2d9225ab0388a1a036c3750d16cb73bfe6912fa081ff65c4cb6f10279c1d95b
     name: mod-roles-keycloak
@@ -4443,7 +4443,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-roles-keycloak deployment
     digest: 47e68a9baa608c4a39950c983b27ebf1e6171003dcbf50d3d040aa9ec50d16f2
     name: mod-roles-keycloak
@@ -4457,7 +4457,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-roles-keycloak deployment
     digest: 82e1ee48f44827691ba5eed7a2ec9664369db08d6076c54ea08a44e1c1b39118
     name: mod-roles-keycloak
@@ -4472,7 +4472,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-rtac dependencies
     digest: fb21f42a6f9372c3d4f6677f73428b5992e62ae0224d25623d0d6e7c5dd77f00
     name: mod-rtac
@@ -4486,7 +4486,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-rtac dependencies
     digest: c5bd072aff095c817431472b586eb3436c789f8dcbced0ef25e5e8979e59b697
     name: mod-rtac
@@ -4500,7 +4500,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-rtac dependencies
     digest: 857c95b8f429afe75fcb98748fbb8d513bbd1f31e1778a48d429da8e56593d17
     name: mod-rtac
@@ -4515,7 +4515,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-rtac-cache dependencies
     digest: dff5b7dbb79b3362098c25c0f89da78fe25db6d8e008fda3eb58f28277de38cc
     name: mod-rtac-cache
@@ -4529,7 +4529,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-rtac-cache dependencies
     digest: 185d40284c11aa7397550fb5b0c9866fe82756532c17d62baa2b21fa22d55d74
     name: mod-rtac-cache
@@ -4544,7 +4544,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-scheduler deployment
     digest: 82312e128bd235fd29b2090fca79e342c2d8dee9cce06b870495bec838c37f63
     name: mod-scheduler
@@ -4558,7 +4558,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-scheduler deployment
     digest: 0dfa45501b68c8b223772dcb02622d95d1825862b064772f61848253bf88c0d9
     name: mod-scheduler
@@ -4572,7 +4572,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-scheduler deployment
     digest: 44a31862721424067b7231bcc532c0e7e4c3afa883b57a41ec8b0a6eb9bf7fb1
     name: mod-scheduler
@@ -4587,7 +4587,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes deployment
     digest: 94daeb45564395006df54321d4e4e14fb77127fbc9085bffdf9f1f5468680ec1
     name: mod-search
@@ -4601,7 +4601,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes deployment
     digest: ba5ffb5c09eb4c3811047732a3087007844c6a2e08023f57d669817bc437feda
     name: mod-search
@@ -4615,7 +4615,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes deployment
     digest: 1c7c0686019a5b4cd26113242de09031fc9d3cc9b55d3f4c133b0b0c5fbadc3f
     name: mod-search
@@ -4630,7 +4630,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-sender deployment
     digest: d7f588567ff89699fb3896090132c117c1ed873565f8e74b989169efc7acd53a
     name: mod-sender
@@ -4644,7 +4644,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-sender deployment
     digest: 6643c0c1c1787fd0cf2842426ddc54f00deb26ca43fac87007030cb87a813330
     name: mod-sender
@@ -4658,7 +4658,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-sender deployment
     digest: 7a4c0fdac654e3d77de6162b959d0bcc4bffa0c1fa9aa2ffcfe7a2208424fe04
     name: mod-sender
@@ -4673,7 +4673,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-serials-management deployment
     digest: e29df81aeaab3193c5fa0f69ab99d32fa8bf00d9ae83ac799dabce3a02db07ef
     name: mod-serials-management
@@ -4687,7 +4687,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-serials-management deployment
     digest: 6a47a658ea22aa699e58e1581520462f19fd777aefb01eb85fdbebeba908b8f4
     name: mod-serials-management
@@ -4701,7 +4701,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-serials-management deployment
     digest: a098f1f123b8f74a00746ec2d3032aeeb29a92be4b6295ae3232b1ba74b0cc35
     name: mod-serials-management
@@ -4716,7 +4716,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-service-interaction deployment
     digest: cd1bce169bd8fe8dbf6184fa870b608a5c5e2df9de5f1fb8ca7cfc0a0f86b169
     name: mod-service-interaction
@@ -4730,7 +4730,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-service-interaction deployment
     digest: 2b28fb7766621eb36f8f20e33f611cb2f85c95140dd16be2f20ea53d45aae4c2
     name: mod-service-interaction
@@ -4744,7 +4744,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-service-interaction deployment
     digest: af80a591b2305143c30194bafa617f409c56c6182829da434d95d71e0dd5bda6
     name: mod-service-interaction
@@ -4759,7 +4759,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-settings deployment
     digest: a369fdf4b5445d6aa344c92a7646b1e90bb2217781ebc2386eb1874800f09ae0
     name: mod-settings
@@ -4773,7 +4773,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-settings deployment
     digest: e947cb6244f9b69fc265039d234d24decbf8628cb7cbf5f4732d52368f4b4b6f
     name: mod-settings
@@ -4787,7 +4787,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-settings deployment
     digest: 87eb550144d032fc76a16e57d21202e72ec74f98114eff43365e98055efab1f1
     name: mod-settings
@@ -4802,7 +4802,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-manager deployment
     digest: 5829f919e0f0d90d7f3f65913fc54e6d71894bf76f55958ec5317d3555939cf0
     name: mod-source-record-manager
@@ -4816,7 +4816,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-manager deployment
     digest: 0a202782fc6c0f20b4dc47a32c35f7a17d45a70a3ec17a6d646d2d9ffaae2ac7
     name: mod-source-record-manager
@@ -4830,7 +4830,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-manager deployment
     digest: 6c915bd69c2c79cd70eecb579393af3554f10e9f1353a312d1907bc6f20ac5a9
     name: mod-source-record-manager
@@ -4845,7 +4845,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-storage deployment
     digest: 09b1a0b1eef062a1255eb353e72381530f12268f34e83860d36a9a87b0464ccf
     name: mod-source-record-storage
@@ -4859,7 +4859,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-storage deployment
     digest: 5f1700ff2eb0aadc0499be5137fddf13f5654724b8324d7c690996bddbac5ae2
     name: mod-source-record-storage
@@ -4873,7 +4873,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-source-record-storage deployment
     digest: 993c94768837f3c853cded8d9f521241c63ed8167eb1d2690783261768ee7fb4
     name: mod-source-record-storage
@@ -4888,7 +4888,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tags deployment
     digest: 4cb2be922b55e781f72788ab2a9bdd6ff67877aa44c7f1f1a1cd01e7a36259e9
     name: mod-tags
@@ -4902,7 +4902,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tags deployment
     digest: 7670f7fa32118dd3b9c269dc033527b63a53fd0a196ae2d65e540d1aa5ce7133
     name: mod-tags
@@ -4916,7 +4916,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tags deployment
     digest: 7c889d73348fdee2756aa274459fd637728808bf71a4ea6788da40db309c40b3
     name: mod-tags
@@ -4931,7 +4931,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-template-engine deployment
     digest: ee468ff1039bb2ddeff152122416860652663b489291d3c7b1e9ef757ac8546e
     name: mod-template-engine
@@ -4945,7 +4945,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-template-engine deployment
     digest: f478e6ce8494faca80b95a7b84fe4a3850b52095a0237c6a95affa5b46498f91
     name: mod-template-engine
@@ -4959,7 +4959,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-template-engine deployment
     digest: 694100986bafd39404b770da1da2de49c74675b54627e6424abea0fc2ff8046a
     name: mod-template-engine
@@ -4974,7 +4974,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tlr deployment
     digest: 1b2e97fc9664e7be0d1fb0dc01304f7d243ed11089a2708113332224e12a3515
     name: mod-tlr
@@ -4988,7 +4988,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tlr deployment
     digest: 5130e56d69dca9742d770973a33034ad3ef15323bf58390a466200c152539f41
     name: mod-tlr
@@ -5002,7 +5002,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-tlr deployment
     digest: f5f2635155aba9e6b794684dd34062ed030c8d4cd8c382b90fca103524a141c5
     name: mod-tlr
@@ -5017,7 +5017,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-user-import deployment
     digest: 6d0c9b8e80f6eb965ec2186ae44fccc34bbb2828fcba1560c0e0f1646af77780
     name: mod-user-import
@@ -5031,7 +5031,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-user-import deployment
     digest: 66883607f1905d5bd8129ced716c03a1320dd7473888ba72380da883174bc008
     name: mod-user-import
@@ -5045,7 +5045,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-user-import deployment
     digest: b60ee7cfecd36bfc535bc50afafc8b35db5a00ce0bacaec4e2a4b59a533bb2e7
     name: mod-user-import
@@ -5060,7 +5060,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-users for Kubernetes mod-users deployment
     digest: 5e058916330c5413af69f171d526e4b1a315eb9f4e029de2f1855ee300bfa425
     name: mod-users
@@ -5074,7 +5074,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-users for Kubernetes mod-users deployment
     digest: aae184b86c3bbc031ad00a839027aefc3b9d9fe94f22ac9501f549e4239c9f05
     name: mod-users
@@ -5088,7 +5088,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-users for Kubernetes mod-users deployment
     digest: b16ece59bbaacc382f7a7faee621d5a72e5de51851e72ebc0a3cfd7550df7363
     name: mod-users
@@ -5103,7 +5103,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-bl deployment
     digest: fe5decd446b1d2819c2980bd68a37afd365480fb69d71e3bfca747c23d0c054a
     name: mod-users-bl
@@ -5117,7 +5117,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-bl deployment
     digest: 5a79bb2d9d1f752334bd7c41bbe2a1c6381cf964a6d5946b2bca154b7a15337e
     name: mod-users-bl
@@ -5131,7 +5131,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-bl deployment
     digest: b711c4c722140a6f32462903d07d2ad9fb8b5840d0cafe2d7298faeb83f07cec
     name: mod-users-bl
@@ -5146,7 +5146,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-keycloak deployment
     digest: 7bd7b3a7b6860b793abf2dcc4026cbe1a70ed06bf7dac34c28c9321d4c128c85
     name: mod-users-keycloak
@@ -5160,7 +5160,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-keycloak deployment
     digest: b0c8617d5a6ec5406b9bbbd74b3490e00c2fd8d3a2c91c1603a9cbd8fca7cb2d
     name: mod-users-keycloak
@@ -5174,7 +5174,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-users-keycloak deployment
     digest: 230a499a85ed57d0d8e53f49d5b923f5f10cebcf07a84da4a5a7946e09be56c2
     name: mod-users-keycloak
@@ -5189,7 +5189,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-workflow for Kubernetes
     digest: c96eae45921adc808a9b3b9b8296630a2e8604e80af6758e79bd1a95d12e4862
     name: mod-workflow
@@ -5203,7 +5203,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-workflow for Kubernetes
     digest: 084076a8c8408e86f8c5b8d8ec6f7dba15fdbc1980329b462d5f75d669c65c6b
     name: mod-workflow
@@ -5217,7 +5217,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart Folio mod-workflow for Kubernetes
     digest: 309e528659f72d2b0c50140e42f1103deeb626532d8e5feb65563152152f8fa2
     name: mod-workflow
@@ -5232,7 +5232,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-z3950 deployment
     digest: a3efa00b0063533d172cfe15f748399f0eb712b2fdfeb179e2c29b10770a19b9
     name: mod-z3950
@@ -5246,7 +5246,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-z3950 deployment
     digest: 28454dc9de8b32961a5975754a6c58a8b1394cd4e153039d8468a59885f24742
     name: mod-z3950
@@ -5260,7 +5260,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-z3950 deployment
     digest: fbc9f698f3a7ccf2b4c7a5e7c223515a4ba8b1ddd737a517e301d0ded505aed3
     name: mod-z3950
@@ -5274,7 +5274,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes mod-z3950 deployment
     digest: 2a3b40d5e9d2ec5a1ab5557b857469d61b99c8574ccd064e89cf27633347b316
     name: mod-z3950
@@ -5289,7 +5289,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes Okapi deployment
     digest: bda02c3d35f95565591b2787518532545468a994f9f91a54c485daa3b4191a24
     name: okapi
@@ -5303,7 +5303,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes Okapi deployment
     digest: 462e8f7fc6780afb9938ac7485cbdc69e7dde682a191ddf0615ac4317a626c69
     name: okapi
@@ -5318,7 +5318,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes platform-complete (stripes) deployment
     digest: 6bcf228af9b7c75b06944d24b607e364eb62b1130ea44f114192750c6d0aaa69
     name: platform-complete
@@ -5332,7 +5332,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes platform-complete (stripes) deployment
     digest: 18bbafdeb17a1f1695c3faba6ca46851a25969bba80d9ccb1847fb01bacee17c
     name: platform-complete
@@ -5346,7 +5346,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes platform-complete (stripes) deployment
     digest: 6353b721553bffe826acd5aef42c17c02bbecae969a6e0f58ccc5583548c59d0
     name: platform-complete
@@ -5360,7 +5360,7 @@ entries:
     dependencies:
     - name: folio-common
       repository: file://../folio-common
-      version: ~0.2.0
+      version: 0.2.x
     description: A Helm chart for Kubernetes platform-complete (stripes) deployment
     digest: 269bcdec19c31cecd1473393998a3ca245ed5108f888cad3ede1bacec2d8e8fa
     name: platform-complete
