@@ -59,7 +59,7 @@ Sidecar env vars part of container specs.
 - name: QUARKUS_REST_CLIENT_SEND_TIMEOUT
   value: "360000"
 - name: QUARKUS_HTTP_LIMITS_MAX_BODY_SIZE
-  value: {{ if has .Release.Name (list "mod-data-import" "mod-bulk-operations" "mod-data-export") }}"204800k"{{ else }}"10240k"{{ end }}
+  value: "204800k"
 - name: TE_CLIENT_URL
   value: "http://mgr-tenant-entitlements"
 - name: TM_CLIENT_URL
@@ -92,6 +92,8 @@ Sidecar env vars part of container specs.
   value: "INFO"
 - name: ROOT_LOG_LEVEL
   value: "INFO"
+- name: HANDLER_EGRESS_IGNORE_SYSTEM_USER_TOKEN_ERROR
+  value: "true"
 - name: SECRET_STORE_TYPE
   valueFrom:
     secretKeyRef:
@@ -139,7 +141,7 @@ Sidecar env vars part of container specs.
       key: KC_URL
 {{- if eq .Chart.Name "mod-scheduler"  }}
 - name: ROUTING_DYNAMIC_ENABLED
-  value: "true"
+  value: "true" 
 {{- end }}
 
 {{- end }}
