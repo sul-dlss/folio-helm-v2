@@ -11,7 +11,7 @@
 <p align="center">
   <div align="center">
     <a href="https://kubernetes.io/releases/download/">
-    <img src="https://img.shields.io/badge/K8S-1.22+-blue?style=for-the-badge" alt="K8S 1.22+" />
+    <img src="https://img.shields.io/badge/K8S-1.29+-blue?style=for-the-badge" alt="K8S 1.29+" />
     </a>&nbsp;
     <a href="https://github.com/folio-org/folio-helm-v2/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-green?style=for-the-badge" alt="License Apache-2.0" />
@@ -105,7 +105,7 @@ will run, package and index chart in Nexus automatically.
 
 ## Prerequisites
 
-- Kubernetes 1.22+
+- Kubernetes 1.29+ (sidecar containers are rendered as [native sidecars](https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/))
 - Helm 3.10+
 
 ## Getting started
@@ -262,14 +262,21 @@ helm uninstall my-release-name
 
 ### Init container
 
+The init container runs to completion before the sidecar containers start, so it can't make requests through the sidecar.
+
 | Name                                             | Description                                                                                                            | Common value |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------|
 | `initContainer.enabled`                          | If `initContainer.NAME.enabled` is true, a new init container will be added to the pod.                                | `false`      |
+| `initContainer.name`                             | Init container name.                                                                                                   | `CHART_NAME-init` |
 | `initContainer.image.repository`                 | An init container image name.                                                                                          |              |
 | `initContainer.image.tag`                        | An init container image tag.                                                                                           | `latest`     |
 | `initContainer.image.pullPolicy`                 | An init container image pull policy.                                                                                   | `Always`     |
 | `initContainer.command`                          | Init container command list.                                                                                           | []           |
 | `initContainer.args`                             | Arguments passed to the command that is run in the init container.                                                     | []           |
+| `initContainer.env`                              | Env variables for the init container. Values can use templates, as in the main container's env.                         | []           |
+| `initContainer.envFrom`                          | Secrets or ConfigMaps to load as env variables in the init container, e.g. `- secretRef: {name: db-credentials}`.      | []           |
+| `initContainer.resources`                        | Init container resource requests and limits.                                                                           | `{}`         |
+| `initContainer.securityContext`                  | Init container security context.                                                                                       | `{}`         |
 | `initContainer.extraVolumeMounts.NAME.enabled`   | If the extra volume mount element is enabled, a previously defined volume will be mounted to the pod's init container. | `false`      |
 | `initContainer.extraVolumeMounts.NAME.name`      | A reference name to an existed extra volume.                                                                           |              |
 | `initContainer.extraVolumeMounts.NAME.mountPath` | Extra volume mount path.                                                                                               |              |
@@ -304,10 +311,15 @@ helm uninstall my-release-name
 
 ### Sidecar containers
 
+Sidecars are rendered as Kubernetes [native sidecars](https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/):
+`initContainers` entries with `restartPolicy: Always`, after any other init containers. The module container starts only
+after the sidecar's startup probe passes, and on shutdown the sidecar is stopped only after the module container has exited.
+This requires Kubernetes 1.29+.
+
 | Name                                         | Description                                                                                                                                                                                                            | Common value                                         |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | `sidecarContainers.NAME`                     | The section provides sidecar information.	                                                                                                                                                                             | `eureka`                                             |
-| `sidecarContainers.NAME.enabled`             | If it is true an additional container will be added to the module pod.                                                                                                                                                 | `false`                                              |
+| `sidecarContainers.NAME.enabled`             | If it is true a native sidecar container will be added to the module pod.                                                                                                                                              | `false`                                              |
 | `sidecarContainers.NAME.name`                | A container name to be used as sidecar name. If it is not provided section name is utilized.                                                                                                                           | 'sidecar'                                            |
 | `sidecarContainers.NAME.image.repository`    | Sidecar container image location.                                                                                                                                                                                      |                                                      |
 | `sidecarContainers.NAME.image.tag`           | Sidecar container image tag.                                                                                                                                                                                           | `latest`                                             |
@@ -316,6 +328,9 @@ helm uninstall my-release-name
 | `sidecarContainers.NAME.ports.port`          | Sidecar container TCP port number in the pod to listen on.                                                                                                                                                             | `8082`                                               |
 | `sidecarContainers.NAME.ports.containerPort` | Sidecar container TCP port number to be exposed via the service.                                                                                                                                                       | `8082`                                               |
 | `sidecarContainers.NAME.resources`           | Sidecar resource section.                                                                                                                                                                                              | `limits:    memory: 96Mi   requests:   memory: 64Mi` |
+| `sidecarContainers.NAME.startupProbe`        | Sidecar startup probe. The module container doesn't start until it passes. Defaults to a TCP check on the first sidecar port every 5s, for up to 5 minutes.                                                           | `tcpSocket: {port: 8082}  periodSeconds: 5  failureThreshold: 60` |
+| `sidecarContainers.NAME.readinessProbe`      | Sidecar readiness probe (OPTIONAL). Rendered only when set.                                                                                                                                                            |                                                      |
+| `sidecarContainers.NAME.livenessProbe`       | Sidecar liveness probe (OPTIONAL). Rendered only when set.                                                                                                                                                             |                                                      |
 | `sidecarContainers.NAME.envVars`             | Adds env variables to sidecar container via this section. These vars have to be defined only directly in the Chart. ATTENTION: Don't pass these values during values file because it will override the defined values. | []                                                   |
 | `sidecarContainers.NAME.extraEnvVars`        | Adds env variables to sidecar container via this section. These vars have to be defined only directly in the Chart. ATTENTION: Don't pass these values during values file because it will override the defined values. | []                                                   |
 
