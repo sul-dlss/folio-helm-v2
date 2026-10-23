@@ -26,7 +26,7 @@ spec:
       {{- with .Values.podSecurityContext }}
       securityContext: {{ toYaml . | nindent 8 }}
       {{- end }}
-      {{- if or (and .Values.jmx .Values.jmx.enabled) (and .Values.initContainer .Values.initContainer.enabled) }}
+      {{- if or (and .Values.jmx .Values.jmx.enabled) (and .Values.initContainer .Values.initContainer.enabled) (include "folio-common.sidecar.anyEnabled" .) }}
       initContainers:
       {{- if and .Values.jmx .Values.jmx.enabled }}
         - name: download-jmx-agent
@@ -45,7 +45,7 @@ spec:
 
       {{- if and .Values.initContainer .Values.initContainer.enabled }}
       {{- with .Values.initContainer }}
-        - name: {{ $.Chart.Name }}-init
+        - name: {{ .name | default (printf "%s-init" $.Chart.Name) }}
           image: {{ .image.repository }}:{{ .image.tag | default "latest" }}
           imagePullPolicy: {{ .image.pullPolicy | default "Always" }}
           {{- if .command }}
@@ -72,6 +72,11 @@ spec:
           {{- end }}
       {{- end }}
       {{- end }}
+        {{- range .Values.sidecarContainers }}
+        {{- if eq (include "folio-common.tplvalues.render" (dict "value" .enabled "context" $)) "true" }}
+        {{- include "folio-common.sidecar" (dict "sidecar" . "global" $)  | nindent 8 }}
+        {{- end }}
+        {{- end }}
       {{- end }}
       containers:
         - name: {{ .Chart.Name }}
@@ -128,11 +133,6 @@ spec:
               mountPath: {{ .Values.jmx.agentPath }}/prometheus-jmx-config.yaml
               subPath: prometheus-jmx-config.yaml
           {{- end }}
-        {{- range .Values.sidecarContainers }}
-        {{- if eq (include "folio-common.tplvalues.render" (dict "value" .enabled "context" $)) "true" }}
-        {{- include "folio-common.sidecar" (dict "sidecar" . "global" $)  | nindent 8 }}
-        {{- end }}
-        {{- end }}
       volumes:
       {{- include "folio-common.volumes" . | indent 8}}
       {{- if and .Values.extraVolumes (eq (include "folio-common.list.hasAnyEnabled" .Values.extraVolumes) "true") }}
